@@ -15,10 +15,39 @@ export default function Home() {
   const progress = useStore((s) => s.progress);
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: tokens.bg }} contentContainerStyle={{ padding: 16 }}>
-      <Text style={{ color: tokens.muted, fontFamily: mono, fontSize: 12, marginBottom: 12 }}>
-        ICP EXAM PREP · TAP A MODULE
-      </Text>
+    <ScrollView style={{ flex: 1, backgroundColor: tokens.bg }} contentContainerStyle={{ padding: 16, paddingTop: 8 }}>
+      {/* header plate */}
+      <View
+        style={{
+          backgroundColor: tokens.bgAccent,
+          borderColor: tokens.border,
+          borderWidth: 1,
+          borderRadius: 16,
+          paddingHorizontal: 18,
+          paddingVertical: 16,
+          marginBottom: 18,
+        }}
+      >
+        <Text style={{ color: tokens.accent, fontFamily: mono, fontSize: 11, letterSpacing: 3 }}>
+          ICP · CERT PREP
+        </Text>
+        <Text
+          style={{
+            color: tokens.ink,
+            fontFamily: mono,
+            fontSize: 24,
+            fontWeight: '700',
+            letterSpacing: 1,
+            marginTop: 4,
+          }}
+        >
+          API INSPECTOR
+        </Text>
+        <View style={{ height: 3, width: 48, backgroundColor: tokens.accent, borderRadius: 2, marginTop: 10 }} />
+        <Text style={{ color: tokens.muted, fontSize: 12, marginTop: 10 }}>
+          Select a module to begin. Progress is saved per question.
+        </Text>
+      </View>
 
       {MODULES.map((m) => {
         const ids = bankForExam(m.id).map((q) => q.id);

@@ -2,14 +2,14 @@ import React from 'react';
 import { View } from 'react-native';
 import { useTheme } from '../lib/useTheme';
 
-export default function ProgressBar({ pct }: { pct: number }) {
+export default function ProgressBar({ pct, color }: { pct: number; color?: string }) {
   const { tokens } = useTheme();
   const clamped = Math.max(0, Math.min(100, pct));
   return (
     <View
       style={{
-        height: 6,
-        borderRadius: 3,
+        height: 7,
+        borderRadius: 4,
         backgroundColor: tokens.panelAlt,
         overflow: 'hidden',
       }}
@@ -18,7 +18,8 @@ export default function ProgressBar({ pct }: { pct: number }) {
         style={{
           width: `${clamped}%`,
           height: '100%',
-          backgroundColor: tokens.accent,
+          borderRadius: 4,
+          backgroundColor: color ?? tokens.accent,
         }}
       />
     </View>
