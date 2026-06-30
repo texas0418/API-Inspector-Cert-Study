@@ -57,9 +57,6 @@ export const MODULE_HUES: Record<string, string> = {
   '510': '#F2A93B', // amber — base/hero
   '570': '#E0794A', // copper
   '653': '#3FAE9A', // teal
-  '571': '#9B82D4', // violet
-  '577': '#5B8DEF', // blue
-  '580': '#E0607F', // rose
 };
 
 export function moduleAccent(code: string, fallback: string): string {

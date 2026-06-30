@@ -25,7 +25,8 @@ export default function RootLayout() {
       >
         <Stack.Screen name="index" options={{ title: 'API Inspector' }} />
         <Stack.Screen name="module/[id]" options={{ title: 'Module' }} />
-        <Stack.Screen name="session" options={{ title: 'Session', headerBackVisible: false }} />
+        <Stack.Screen name="plan/[id]" options={{ title: 'Study plan' }} />
+        <Stack.Screen name="session" options={{ title: 'Session' }} />
         <Stack.Screen name="results" options={{ title: 'Results', headerBackVisible: false }} />
         <Stack.Screen name="review" options={{ title: 'Review' }} />
         <Stack.Screen name="free-complete" options={{ title: 'Sample complete' }} />

@@ -1,14 +1,24 @@
-import React, { useMemo, useState } from 'react';
-import { Pressable, ScrollView, Text, View } from 'react-native';
-import { useRouter } from 'expo-router';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { Alert, Pressable, ScrollView, Text, View } from 'react-native';
+import { useRouter, Stack } from 'expo-router';
 import { useSession } from '../lib/session';
 import { useStore } from '../lib/store';
 import { useTheme } from '../lib/useTheme';
-import { mono } from '../lib/theme';
+import { mono, withAlpha } from '../lib/theme';
 import { orderOptions } from '../lib/optionOrder';
+import { reportQuestion } from '../lib/report';
 import OptionButton from '../components/OptionButton';
 import ProgressBar from '../components/ProgressBar';
 import type { Question, SessionResult } from '../lib/types';
+
+// Time budget for the timed exam: per-question seconds x question count.
+const EXAM_SECONDS_PER_QUESTION = 90;
+
+function fmtClock(s: number): string {
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `${m}:${String(sec).padStart(2, '0')}`;
+}
 
 export default function SessionScreen() {
   const router = useRouter();
@@ -17,18 +27,43 @@ export default function SessionScreen() {
   const recordAnswer = useStore((s) => s.recordAnswer);
   const toggleBookmark = useStore((s) => s.toggleBookmark);
   const bookmarks = useStore((s) => s.bookmarks);
+  const reported = useStore((s) => s.reported);
+  const markReported = useStore((s) => s.markReported);
   const addHistory = useStore((s) => s.addHistory);
 
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
+  const [remaining, setRemaining] = useState<number | null>(null);
+  const finishedRef = useRef(false);
 
   const q = session.questions[idx];
   const isPractice = session.mode !== 'exam';
+  const isExam = session.mode === 'exam';
 
   const ordered = useMemo(() => {
     if (!q) return { options: [] as string[], answerIndex: 0, map: [] as number[] };
     return orderOptions(session.sessionId, q.id, q.content.options, q.content.answer);
   }, [session.sessionId, q]);
+
+  // Reset and seed the exam clock when a new session starts.
+  useEffect(() => {
+    finishedRef.current = false;
+    setRemaining(isExam ? session.questions.length * EXAM_SECONDS_PER_QUESTION : null);
+  }, [session.sessionId]);
+
+  // Tick the exam clock down once per second.
+  useEffect(() => {
+    if (!isExam) return;
+    const t = setInterval(() => {
+      setRemaining((r) => (r === null ? r : Math.max(0, r - 1)));
+    }, 1000);
+    return () => clearInterval(t);
+  }, [isExam, session.sessionId]);
+
+  // Auto-submit when the clock hits zero.
+  useEffect(() => {
+    if (isExam && remaining === 0) finish();
+  }, [remaining, isExam]);
 
   if (!q) {
     return (
@@ -43,6 +78,22 @@ export default function SessionScreen() {
 
   const total = session.questions.length;
   const isBookmarked = bookmarks.includes(q.id);
+  const isReported = reported.includes(q.id);
+
+  async function flag() {
+    const r = await reportQuestion(q, '');
+    if (r === 'sent') {
+      markReported(q.id);
+      Alert.alert('Thanks', 'Your flag was sent. We will review this question.');
+    } else if (r === 'unavailable') {
+      Alert.alert(
+        'Email not set up',
+        'No mail account is set up on this device, so the flag could not be sent. Set up Mail and try again.'
+      );
+    } else if (r === 'error') {
+      Alert.alert('Could not send', 'Something went wrong opening the mail composer.');
+    }
+  }
 
   function choose(i: number) {
     if (picked !== null) return;
@@ -63,6 +114,8 @@ export default function SessionScreen() {
   }
 
   function finish() {
+    if (finishedRef.current) return;
+    finishedRef.current = true;
     const correct = scoreSession(session.questions, session.answers);
     const result: SessionResult = {
       id: session.sessionId,
@@ -87,17 +140,60 @@ export default function SessionScreen() {
   };
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: tokens.bg }} contentContainerStyle={{ padding: 16 }}>
+    <>
+      <Stack.Screen
+        options={{
+          headerLeft: () => (
+            <Pressable onPress={() => router.back()} hitSlop={10} style={{ paddingRight: 12 }}>
+              <Text style={{ color: tokens.accent, fontFamily: mono, fontSize: 15 }}>‹ Exit</Text>
+            </Pressable>
+          ),
+        }}
+      />
+      <ScrollView style={{ flex: 1, backgroundColor: tokens.bg }} contentContainerStyle={{ padding: 16 }}>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
         <Text style={{ color: tokens.muted, fontFamily: mono, fontSize: 12 }}>
           {session.mode.toUpperCase()} · {idx + 1}/{total}
         </Text>
-        <Pressable onPress={() => toggleBookmark(q.id)}>
-          <Text style={{ color: isBookmarked ? tokens.accent : tokens.muted, fontFamily: mono, fontSize: 12 }}>
-            {isBookmarked ? '★ saved' : '☆ save'}
-          </Text>
-        </Pressable>
+        <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+          <Pressable onPress={flag} hitSlop={8} style={{ marginRight: 16 }}>
+            <Text style={{ color: isReported ? tokens.bad : tokens.muted, fontFamily: mono, fontSize: 12 }}>
+              {isReported ? '⚑ flagged' : '⚑ flag'}
+            </Text>
+          </Pressable>
+          <Pressable onPress={() => toggleBookmark(q.id)} hitSlop={8}>
+            <Text style={{ color: isBookmarked ? tokens.accent : tokens.muted, fontFamily: mono, fontSize: 12 }}>
+              {isBookmarked ? '★ saved' : '☆ save'}
+            </Text>
+          </Pressable>
+        </View>
       </View>
+
+      {isExam && remaining !== null && (
+        <View style={{ alignItems: 'center', marginTop: 12 }}>
+          <View
+            style={{
+              backgroundColor: remaining <= 60 ? withAlpha(tokens.bad, '24') : tokens.panelAlt,
+              borderRadius: 999,
+              paddingHorizontal: 16,
+              paddingVertical: 6,
+            }}
+          >
+            <Text
+              style={{
+                fontFamily: mono,
+                fontSize: 16,
+                fontWeight: '700',
+                letterSpacing: 1,
+                color: remaining <= 60 ? tokens.bad : tokens.ink,
+              }}
+            >
+              ⏱ {fmtClock(remaining)}
+            </Text>
+          </View>
+        </View>
+      )}
+
       <View style={{ marginVertical: 12 }}>
         <ProgressBar pct={Math.round((100 * (idx + (picked !== null ? 1 : 0))) / total)} />
       </View>
@@ -157,7 +253,8 @@ export default function SessionScreen() {
           </Text>
         </Pressable>
       )}
-    </ScrollView>
+      </ScrollView>
+    </>
   );
 }
 

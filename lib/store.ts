@@ -29,6 +29,7 @@ interface StoreState {
   setExamTarget: (exam: Exam, iso: string) => void;
   addHistory: (r: SessionResult) => void;
   resetProgress: () => void;
+  resetEverything: () => void;
 }
 
 const EMPTY: QProgress = { box: 0, seen: 0, correct: 0 };
@@ -90,6 +91,18 @@ export const useStore = create<StoreState>()(
         set((state) => ({ history: [r, ...state.history].slice(0, 200) })),
 
       resetProgress: () => set({ progress: {}, history: [] }),
+
+      // Clears everything local except purchases (entitlements are restorable
+      // and shouldn't be wiped by a data reset).
+      resetEverything: () =>
+        set({
+          progress: {},
+          history: [],
+          bookmarks: [],
+          reported: [],
+          examTargets: {},
+          theme: 'system',
+        }),
     }),
     {
       name: 'api-inspector-store-v1',
@@ -123,13 +136,19 @@ export function blockReadiness(
 }
 
 // Order: most-recently-wrong first, then unseen, then weaker (lower-box) first.
-// Ties are shuffled so repeated sessions vary.
+// Equal-priority items are pre-shuffled so each call (each session) varies; a
+// stable sort then preserves that random order for ties. (A random-comparator
+// sort is biased and near-stable on Hermes, so we don't rely on it.)
 export function weakFirstOrder(
   progress: Record<string, QProgress>,
   ids: string[]
 ): string[] {
-  const jitter = () => Math.random() - 0.5;
-  return ids
+  const shuffled = ids.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled
     .map((id) => ({ id, p: progress[id] }))
     .sort((a, b) => {
       const aw = a.p?.lastWrongAt ?? 0;
@@ -141,7 +160,7 @@ export function weakFirstOrder(
       const ab = a.p?.box ?? 0;
       const bb = b.p?.box ?? 0;
       if (ab !== bb) return ab - bb; // weaker box first
-      return jitter();
+      return 0; // ties keep their pre-shuffled (random) order
     })
     .map((x) => x.id);
 }

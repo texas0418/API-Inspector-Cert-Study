@@ -12,7 +12,7 @@ interface Props {
 
 export default function Paywall({ module, onUnlocked }: Props) {
   const { tokens } = useTheme();
-  const [price, setPrice] = useState('$9.99');
+  const [price, setPrice] = useState('$19.99');
   const [busy, setBusy] = useState(false);
 
   useEffect(() => {
@@ -91,7 +91,8 @@ export default function Paywall({ module, onUnlocked }: Props) {
       </View>
 
       <Text style={{ color: tokens.muted, fontSize: 11, marginTop: 18, textAlign: 'center', lineHeight: 16 }}>
-        Independent study aid. Not affiliated with or endorsed by API.
+        Independent study aid. Not affiliated with, authorized, or endorsed by the American
+        Petroleum Institute (API) or ASME.
       </Text>
     </ScrollView>
   );

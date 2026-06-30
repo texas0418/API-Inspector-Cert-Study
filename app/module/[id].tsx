@@ -8,6 +8,8 @@ import {
   freeSampler,
   assembleForm,
   productIdForModule,
+  topicsForExam,
+  questionsForTopic,
 } from '../../lib/bank';
 import { useSession } from '../../lib/session';
 import { useTheme } from '../../lib/useTheme';
@@ -46,6 +48,16 @@ export default function ModuleScreen() {
 
   function launchFree() {
     start(exam, 'free', freeSampler(exam, 10));
+    router.push('/session');
+  }
+
+  function launchTopic(topic: string) {
+    const qs = questionsForTopic(exam, topic).slice();
+    for (let i = qs.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [qs[i], qs[j]] = [qs[j], qs[i]];
+    }
+    start(exam, 'practice', qs.slice(0, Math.min(20, qs.length)));
     router.push('/session');
   }
 
@@ -89,7 +101,58 @@ export default function ModuleScreen() {
       <BigButton label="Timed exam" sub="40 questions, score at the end" onPress={launchExam} />
       <BigButton label="Free sample" sub="10 questions" onPress={launchFree} subtle />
 
-      <Pressable onPress={() => router.push('/bookmarks')} style={{ marginTop: 18, alignItems: 'center' }}>
+      <Pressable
+        onPress={() => router.push(`/plan/${exam}`)}
+        style={{
+          marginTop: 14,
+          padding: 16,
+          borderRadius: 14,
+          borderColor: tokens.border,
+          borderWidth: 1,
+          backgroundColor: tokens.panel,
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}
+      >
+        <Text style={{ color: tokens.ink, fontSize: 15, fontWeight: '600' }}>Study plan & test date</Text>
+        <Text style={{ color: tokens.accent, fontFamily: mono, fontSize: 18 }}>›</Text>
+      </Pressable>
+
+      <Text style={{ color: tokens.muted, fontFamily: mono, fontSize: 12, marginTop: 24, marginBottom: 4 }}>
+        DRILL BY TOPIC
+      </Text>
+      {topicsForExam(exam).map((t) => {
+        const r = blockReadiness(progress, t.ids);
+        return (
+          <Pressable
+            key={t.topic}
+            onPress={() => launchTopic(t.topic)}
+            style={{
+              marginTop: 10,
+              padding: 14,
+              borderRadius: 12,
+              borderColor: tokens.border,
+              borderWidth: 1,
+              backgroundColor: tokens.panel,
+            }}
+          >
+            <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+              <Text style={{ color: tokens.ink, fontSize: 15, fontWeight: '600', flex: 1, paddingRight: 8 }}>
+                {t.topic}
+              </Text>
+              <Text style={{ color: tokens.muted, fontFamily: mono, fontSize: 12 }}>
+                {r}% · {t.ids.length}
+              </Text>
+            </View>
+            <View style={{ marginTop: 8 }}>
+              <ProgressBar pct={r} />
+            </View>
+          </Pressable>
+        );
+      })}
+
+      <Pressable onPress={() => router.push('/bookmarks')} style={{ marginTop: 24, alignItems: 'center' }}>
         <Text style={{ color: tokens.muted, fontFamily: mono, fontSize: 13 }}>View bookmarks</Text>
       </Pressable>
     </ScrollView>

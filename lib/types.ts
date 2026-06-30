@@ -1,6 +1,6 @@
 // lib/types.ts — core data model for the API Inspector question bank.
 
-export type Exam = '510' | '570' | '653' | '571' | '577' | '580';
+export type Exam = '510' | '570' | '653';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 

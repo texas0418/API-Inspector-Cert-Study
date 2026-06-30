@@ -144,7 +144,7 @@ export async function restorePurchases(): Promise<void> {
 }
 
 export function priceLabelFallback(): string {
-  return '$9.99';
+  return '$19.99';
 }
 
 // Best-effort localized price for a module (falls back to the static label).

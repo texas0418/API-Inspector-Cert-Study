@@ -14,9 +14,6 @@ export const MODULES: ModuleDef[] = [
   { id: '510', title: 'API 510', subtitle: 'Pressure Vessel Inspector', productId: 'unlock_api510' },
   { id: '570', title: 'API 570', subtitle: 'Piping Inspector', productId: 'unlock_api570' },
   { id: '653', title: 'API 653', subtitle: 'Aboveground Storage Tank Inspector', productId: 'unlock_api653' },
-  { id: '571', title: 'API 571', subtitle: 'Corrosion & Materials', productId: 'unlock_api571' },
-  { id: '577', title: 'API 577', subtitle: 'Welding Inspection & Metallurgy', productId: 'unlock_api577' },
-  { id: '580', title: 'API 580', subtitle: 'Risk-Based Inspection', productId: 'unlock_api580' },
 ];
 
 export function moduleById(id: Exam): ModuleDef | undefined {
@@ -41,15 +38,43 @@ export function bankForExam(exam: Exam): Question[] {
   return getEveryQuestion().filter((q) => q.exams.includes(exam));
 }
 
+// Top-level topic for a question (the part before the em dash in the subtopic).
+export function topicOf(q: Question): string {
+  return q.subtopic.split(' — ')[0].trim();
+}
+
+// Distinct topics in a module, each with its question ids, in stable order.
+export function topicsForExam(exam: Exam): Array<{ topic: string; ids: string[] }> {
+  const map = new Map<string, string[]>();
+  for (const q of bankForExam(exam)) {
+    const t = topicOf(q);
+    if (!map.has(t)) map.set(t, []);
+    map.get(t)!.push(q.id);
+  }
+  return Array.from(map.entries())
+    .map(([topic, ids]) => ({ topic, ids }))
+    .sort((a, b) => a.topic.localeCompare(b.topic));
+}
+
+// All questions in a module belonging to one top-level topic.
+export function questionsForTopic(exam: Exam, topic: string): Question[] {
+  return bankForExam(exam).filter((q) => topicOf(q) === topic);
+}
+
 export function moduleCounts(): Record<Exam, number> {
   const out = {} as Record<Exam, number>;
   for (const m of MODULES) out[m.id] = bankForExam(m.id).length;
   return out;
 }
 
-// Free preview: a stable first-N slice so the sampler is consistent.
+// Free preview: a random 10 each time so the sampler varies between sessions.
 export function freeSampler(exam: Exam, n = 10): Question[] {
-  return bankForExam(exam).slice(0, n);
+  const pool = bankForExam(exam).slice();
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, n);
 }
 
 export function productIdForModule(exam: Exam): string {
