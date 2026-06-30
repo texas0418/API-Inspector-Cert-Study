@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "API Inspector Cert Prep",
+    "slug": "api-inspector-cert-prep",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "apiinspector",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1116"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apiicpstudy.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.apiicpstudy.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0E1116"
+      }
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "disclaimer": "Independent study aid. Not affiliated with or endorsed by API."
+    }
+  }
+}
