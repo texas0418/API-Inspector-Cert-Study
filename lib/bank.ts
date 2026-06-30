@@ -6,7 +6,7 @@
 // once and is never re-answered for progress.
 
 import type { Exam, ModuleDef, Question } from './types';
-import poolJson from '../assets/bank_510.json';
+import poolJson from '../assets/bank_api_pool.json';
 
 export const POOL: Question[] = poolJson as Question[];
 
