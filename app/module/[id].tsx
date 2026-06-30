@@ -35,7 +35,8 @@ export default function ModuleScreen() {
 
   function launchPractice() {
     const ordered = weakFirstOrder(progress, ids);
-    const qs = assembleForm(exam, { count: Math.min(20, ids.length), order: () => ordered });
+    const byId = new Map(bankForExam(exam).map((q) => [q.id, q]));
+    const qs = ordered.map((id) => byId.get(id)!).filter(Boolean);
     start(exam, 'practice', qs);
     router.push('/session');
   }
@@ -57,7 +58,7 @@ export default function ModuleScreen() {
       const j = Math.floor(Math.random() * (i + 1));
       [qs[i], qs[j]] = [qs[j], qs[i]];
     }
-    start(exam, 'practice', qs.slice(0, Math.min(20, qs.length)));
+    start(exam, 'practice', qs);
     router.push('/session');
   }
 
@@ -97,7 +98,7 @@ export default function ModuleScreen() {
         <ProgressBar pct={blockReadiness(progress, ids)} />
       </View>
 
-      <BigButton label="Practice (weak-first)" sub="20 questions, instant feedback" onPress={launchPractice} />
+      <BigButton label="Practice (weak-first)" sub={`${ids.length} questions, instant feedback`} onPress={launchPractice} />
       <BigButton label="Timed exam" sub="40 questions, score at the end" onPress={launchExam} />
       <BigButton label="Free sample" sub="10 questions" onPress={launchFree} subtle />
 

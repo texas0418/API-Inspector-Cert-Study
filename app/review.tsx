@@ -13,7 +13,11 @@ export default function Review() {
   const { tokens } = useTheme();
   const session = useSession();
 
-  const missed = session.questions.filter(
+  const considered =
+    session.mode === 'exam'
+      ? session.questions
+      : session.questions.filter((q) => session.answers[q.id] !== undefined);
+  const missed = considered.filter(
     (q) => session.answers[q.id] !== q.content.answer
   );
 

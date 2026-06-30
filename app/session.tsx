@@ -116,20 +116,46 @@ export default function SessionScreen() {
   function finish() {
     if (finishedRef.current) return;
     finishedRef.current = true;
-    const correct = scoreSession(session.questions, session.answers);
+    // Exams score the whole form (unanswered = wrong). Practice scores only
+    // what was actually answered, so an early exit still gives a fair result.
+    const considered =
+      session.mode === 'exam'
+        ? session.questions
+        : session.questions.filter((x) => session.answers[x.id] !== undefined);
+    const correct = considered.filter(
+      (x) => session.answers[x.id] === x.content.answer
+    ).length;
     const result: SessionResult = {
       id: session.sessionId,
       exam: session.exam,
       mode: session.mode,
       at: Date.now(),
-      total,
+      total: considered.length,
       correct,
-      questionIds: session.questions.map((x) => x.id),
+      questionIds: considered.map((x) => x.id),
       answers: session.answers,
     };
     addHistory(result);
     if (session.mode === 'free') router.replace('/free-complete');
     else router.replace('/results');
+  }
+
+  function onExit() {
+    const answered = session.questions.filter(
+      (x) => session.answers[x.id] !== undefined
+    ).length;
+    if (isPractice && answered > 0) {
+      Alert.alert(
+        'End practice?',
+        `You've answered ${answered} of ${total}. End now and review what you missed?`,
+        [
+          { text: 'Keep going', style: 'cancel' },
+          { text: 'End & review', onPress: () => finish() },
+        ]
+      );
+    } else {
+      router.back();
+    }
   }
 
   const optState = (i: number): 'idle' | 'correct' | 'wrong' | 'reveal' => {
@@ -144,7 +170,7 @@ export default function SessionScreen() {
       <Stack.Screen
         options={{
           headerLeft: () => (
-            <Pressable onPress={() => router.back()} hitSlop={10} style={{ paddingRight: 12 }}>
+            <Pressable onPress={onExit} hitSlop={10} style={{ paddingRight: 12 }}>
               <Text style={{ color: tokens.accent, fontFamily: mono, fontSize: 15 }}>‹ Exit</Text>
             </Pressable>
           ),
@@ -256,13 +282,4 @@ export default function SessionScreen() {
       </ScrollView>
     </>
   );
-}
-
-// Score by comparing each recorded answer index against the correct index.
-function scoreSession(questions: Question[], answers: Record<string, number>): number {
-  let n = 0;
-  for (const q of questions) {
-    if (answers[q.id] === q.content.answer) n++;
-  }
-  return n;
 }

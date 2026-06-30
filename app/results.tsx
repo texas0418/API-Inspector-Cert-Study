@@ -14,7 +14,12 @@ export default function Results() {
     let correct = 0;
     const byTopic: Record<string, { c: number; n: number }> = {};
     const missed: string[] = [];
-    for (const q of session.questions) {
+    // Practice scores only answered questions; exam scores the whole form.
+    const considered =
+      session.mode === 'exam'
+        ? session.questions
+        : session.questions.filter((q) => session.answers[q.id] !== undefined);
+    for (const q of considered) {
       const top = q.subtopic.split(' — ')[0];
       byTopic[top] = byTopic[top] ?? { c: 0, n: 0 };
       byTopic[top].n++;
@@ -26,7 +31,7 @@ export default function Results() {
         missed.push(q.id);
       }
     }
-    return { correct, total: session.questions.length, byTopic, missed };
+    return { correct, total: considered.length, byTopic, missed };
   }, [session]);
 
   if (total === 0) {
