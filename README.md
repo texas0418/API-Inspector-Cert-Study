@@ -13,16 +13,12 @@ Current content: 323 SME-approved API 510 questions (all tagged `510`; 107 also 
 `570`, 53 also `653`). The 570/653/571/577/580 modules surface their tagged subset and
 fill in as their dedicated banks are authored.
 
-## Setup (on your machine — account/native-bound steps)
-1. `npx expo install --fix`   (reconcile native module versions against the live manifest)
-2. RevenueCat: create the app config for bundle `com.apiicpstudy.app`, copy the new
-   `appl_` key into `REVENUECAT_IOS_API_KEY` in `lib/purchases.ts`.
-3. App Store Connect: create six non-consumable IAPs — `unlock_api510`, `unlock_api570`,
-   `unlock_api653`, `unlock_api571`, `unlock_api577`, `unlock_api580`.
-4. `eas init`, then `eas build -p ios --profile production`,
-   then `eas submit -p ios --profile production --latest`.
-5. App Privacy: declare the email-report data collection (the report feature sends the
-   user's address via the mail composer). Replace the placeholder `assets/icon.png`.
+## To-dos and bugs
+
+Tracked in [GitHub Issues](https://github.com/texas0418/API-Inspector-Cert-Study/issues) — the
+`pre-ship` label is the App Store submission checklist, `tech-debt` items have
+inline eslint-disables pointing at them, and `handoff` issues carry
+session-to-session notes. See AGENTS.md for the PR/CI workflow.
 
 ## Validation (run in repo before building)
 - `npm run typecheck`  →  `tsc --noEmit`
