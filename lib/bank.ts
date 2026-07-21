@@ -109,6 +109,7 @@ export interface AssembleOptions {
 // Assemble a form for an exam, never drawing two questions that share an
 // exclusionGroup, and capping any single subtopic so one calc family can't
 // dominate a short form.
+// eslint-disable-next-line complexity -- tracked in #8
 export function assembleForm(exam: Exam, opts: AssembleOptions): Question[] {
   const seed = opts.seed ?? Date.now();
   let pool = bankForExam(exam);

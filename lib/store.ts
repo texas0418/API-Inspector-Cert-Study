@@ -150,6 +150,7 @@ export function weakFirstOrder(
   }
   return shuffled
     .map((id) => ({ id, p: progress[id] }))
+    // eslint-disable-next-line complexity -- tracked in #9
     .sort((a, b) => {
       const aw = a.p?.lastWrongAt ?? 0;
       const bw = b.p?.lastWrongAt ?? 0;
