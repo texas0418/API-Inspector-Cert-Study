@@ -9,7 +9,7 @@ import { orderOptions } from '../lib/optionOrder';
 import { reportQuestion } from '../lib/report';
 import OptionButton from '../components/OptionButton';
 import ProgressBar from '../components/ProgressBar';
-import type { Question, SessionResult } from '../lib/types';
+import type { SessionResult } from '../lib/types';
 
 // Time budget for the timed exam: per-question seconds x question count.
 const EXAM_SECONDS_PER_QUESTION = 90;
@@ -20,6 +20,7 @@ function fmtClock(s: number): string {
   return `${m}:${String(sec).padStart(2, '0')}`;
 }
 
+// eslint-disable-next-line complexity -- tracked in #6
 export default function SessionScreen() {
   const router = useRouter();
   const { tokens } = useTheme();
