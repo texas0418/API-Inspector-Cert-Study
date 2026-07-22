@@ -10,9 +10,6 @@ module.exports = defineConfig([
     // Deterministic guards against common LLM failure modes:
     // sprawling functions, deep nesting, and unstructured complexity.
     rules: {
-      // New compiler-powered rule; too aggressive about Date.now()-during-render
-      // patterns this codebase uses deliberately. Warn, don't block.
-      'react-hooks/purity': 'warn',
       complexity: ['error', 15],
       'max-depth': ['error', 5],
       'max-lines-per-function': [
