@@ -49,7 +49,6 @@ export default function SessionScreen() {
   // Reset and seed the exam clock when a new session starts.
   useEffect(() => {
     finishedRef.current = false;
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- tracked in #7
     setRemaining(isExam ? session.questions.length * EXAM_SECONDS_PER_QUESTION : null);
   }, [session.sessionId]);
 
