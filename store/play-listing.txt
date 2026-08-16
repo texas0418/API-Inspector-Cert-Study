@@ -30,8 +30,8 @@ Free to start; one Pro unlock opens the full bank. Built by someone who sits the
 -----------------------------------------------------
 
 CATEGORY: Education
-PRIVACY POLICY URL: https://texas0418.github.io/API-Inspector-Cert-Study/privacy.html
-  *** ACTION NEEDED (Simon): enable GitHub Pages (Settings → Pages → main /docs) after promotion — docs/privacy.html is in this PR; URL 404s until then.
+PRIVACY POLICY URL (real, verified live 2026-08-16): https://simonbuilds.app/api-inspector/privacy.html
+
 
 GRAPHIC ASSETS (store/)
 - play-icon-512.png — DONE (gauge, 510/570/653)
