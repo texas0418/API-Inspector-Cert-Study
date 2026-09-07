@@ -1,0 +1,51 @@
+API INSPECTOR CERT PREP — GOOGLE PLAY STORE LISTING (draft 2026-08-15)
+========================================================================
+
+APP NAME (30 chars max)
+API Inspector Cert Prep
+
+SHORT DESCRIPTION (80 chars max)
+Exam prep for API 510, 570 & 653 — SME-approved questions, offline anywhere.
+
+FULL DESCRIPTION (4000 chars max)
+-----------------------------------------------------
+Built for inspectors studying for API ICP certifications — 510 pressure vessels, 570 piping, 653 storage tanks, with 571, 577, and 580 modules on deck.
+
+QUESTIONS WRITTEN LIKE THE EXAM ASKS THEM
+A subject-matter-expert-approved question bank, tagged by exam code, covering the codes and calculation styles the real ICP exams draw from. Near-duplicate questions never appear in the same practice form, so every session tests knowledge, not memory of the last session.
+
+STUDY THE WAY THAT WORKS
+• Timed exam-style sessions that assemble a fresh form each run
+• Instant explanations — learn from every miss while it still stings
+• Bookmarks for the questions that keep biting you
+• History and per-module progress: shared questions count once, honestly
+
+WORKS WHERE INSPECTORS WORK
+Fully offline. Refineries, tank farms, offshore rotations, airplane middle seats — the bank is on your phone, no signal required. Study a hitch at a time.
+
+YOUR PROGRESS STAYS YOURS
+No account, no cloud, no analytics. Everything lives on your device.
+
+Free to start; one Pro unlock opens the full bank. Built by someone who sits the same industry you do — not a quiz-app template with API codes pasted in.
+-----------------------------------------------------
+
+CATEGORY: Education
+PRIVACY POLICY URL (real, verified live 2026-08-16): https://simonbuilds.app/api-inspector/privacy.html
+
+
+GRAPHIC ASSETS (store/)
+- play-icon-512.png — DONE (gauge, 510/570/653)
+- play-feature-graphic.png (1024x500) — DONE
+- screenshots-android/ — captured this run from release APK
+
+DATA SAFETY FORM (prep)
+- Offline, local-only; nothing collected or shared
+- Purchase history via Google Play Billing/RevenueCat for the Pro unlock — collected, not shared, app functionality
+
+CONTENT RATING: Everyone
+
+IN-APP PURCHASE
+- Pro unlock (mirror iOS product/price) — Play Console + RevenueCat Google config at submission. Fail-open.
+
+RELEASE NOTES (first release)
+API Inspector Cert Prep arrives on Android: SME-approved 510/570/653 question bank, timed practice forms, explanations, and progress — fully offline.

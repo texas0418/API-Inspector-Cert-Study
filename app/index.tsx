@@ -2,7 +2,7 @@ import React from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useStore, blockReadiness } from '../lib/store';
-import { MODULES, bankForExam } from '../lib/bank';
+import { bankForExam, listedModules } from '../lib/bank';
 import { productIdForModule } from '../lib/bank';
 import { useTheme } from '../lib/useTheme';
 import { mono } from '../lib/theme';
@@ -49,7 +49,7 @@ export default function Home() {
         </Text>
       </View>
 
-      {MODULES.map((m) => {
+      {listedModules(unlocked).map((m) => {
         const ids = bankForExam(m.id).map((q) => q.id);
         const locked = !unlocked.includes(productIdForModule(m.id));
         return (
