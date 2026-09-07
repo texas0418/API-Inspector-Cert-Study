@@ -13,8 +13,24 @@ export const POOL: Question[] = poolJson as Question[];
 export const MODULES: ModuleDef[] = [
   { id: '510', title: 'API 510', subtitle: 'Pressure Vessel Inspector', productId: 'unlock_api510' },
   { id: '570', title: 'API 570', subtitle: 'Piping Inspector', productId: 'unlock_api570' },
-  { id: '653', title: 'API 653', subtitle: 'Aboveground Storage Tank Inspector', productId: 'unlock_api653' },
+  // Withdrawn 2026-09-07: only 53 of its 251 questions are reviewed, and the
+  // IAP is removed from sale. Restore it by setting listed back to true once
+  // the remaining questions are approved — nothing else needs to change.
+  {
+    id: '653',
+    title: 'API 653',
+    subtitle: 'Aboveground Storage Tank Inspector',
+    productId: 'unlock_api653',
+    listed: false,
+  },
 ];
+
+// Modules to offer on the home screen. A withdrawn module stays visible to
+// anyone who already owns it — they paid for it, and hiding it would look
+// like the purchase vanished.
+export function listedModules(ownedProductIds: string[]): ModuleDef[] {
+  return MODULES.filter((m) => m.listed !== false || ownedProductIds.includes(m.productId));
+}
 
 export function moduleById(id: Exam): ModuleDef | undefined {
   return MODULES.find((m) => m.id === id);
@@ -33,9 +49,22 @@ export function getEveryQuestion(): Question[] {
   return out;
 }
 
-// A module's bank: every question tagged for that exam code.
+// Only reviewed questions are ever served. The pool carries drafts alongside
+// approved work, and until 2026-09-07 every draft was being served and sold:
+// the 653 bank is 53 approved of 251, so a paying customer was studying 198
+// questions nobody had checked, for a certification exam. 510 and 570 are
+// fully approved, so this filter is a no-op for them and it widens on its own
+// as questions are approved — no code change needed to restore 653.
+export function isApproved(q: Question): boolean {
+  return q.meta.reviewStatus === 'approved';
+}
+
+// A module's bank: every APPROVED question tagged for that exam code.
+// Deliberately filtered here rather than in getEveryQuestion(), which stays
+// unfiltered because bookmarks and progress resolve historical ids through it
+// — narrowing it would make an existing owner's saved questions disappear.
 export function bankForExam(exam: Exam): Question[] {
-  return getEveryQuestion().filter((q) => q.exams.includes(exam));
+  return getEveryQuestion().filter((q) => q.exams.includes(exam) && isApproved(q));
 }
 
 // Top-level topic for a question (the part before the em dash in the subtopic).

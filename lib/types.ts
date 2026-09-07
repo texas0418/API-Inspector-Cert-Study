@@ -38,6 +38,12 @@ export interface ModuleDef {
   title: string;
   subtitle: string;
   productId: string; // RevenueCat / App Store product id
+  // false = not offered on the home screen. The module still exists: its id
+  // resolves, saved progress and bookmarks still work, and an owner who
+  // already bought it still sees it. Used to withdraw a module without
+  // deleting it, which would break restore and crash the deep links that
+  // assert MODULES.find(...)!.
+  listed?: boolean;
 }
 
 // Leitner-style per-question progress.
