@@ -4,7 +4,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -16,7 +16,7 @@
     "0.12 in/yr"
    ],
    "answer": 0,
-   "explanation": "Long-term corrosion rate = (t_initial \u2212 t_actual) / time = (0.5 \u2212 0.38) / 8 = 0.015 in/yr."
+   "explanation": "Long-term corrosion rate = (t_initial − t_actual) / time = (0.5 − 0.38) / 8 = 0.015 in/yr."
   },
   "meta": {
    "ref": "API 510 7.1",
@@ -28,7 +28,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -40,7 +40,7 @@
     "0.078 in/yr"
    ],
    "answer": 1,
-   "explanation": "Short-term corrosion rate = (t_previous \u2212 t_actual) / time = (0.42 \u2212 0.39) / 5 = 0.006 in/yr."
+   "explanation": "Short-term corrosion rate = (t_previous − t_actual) / time = (0.42 − 0.39) / 5 = 0.006 in/yr."
   },
   "meta": {
    "ref": "API 510 7.1",
@@ -52,7 +52,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -76,7 +76,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining corrosion allowance",
+  "subtopic": "Calc — Remaining corrosion allowance",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -88,7 +88,7 @@
     "0.145 in"
    ],
    "answer": 3,
-   "explanation": "Remaining corrosion allowance = t_actual \u2212 t_required = 0.445 \u2212 0.3 = 0.145 in."
+   "explanation": "Remaining corrosion allowance = t_actual − t_required = 0.445 − 0.3 = 0.145 in."
   },
   "meta": {
    "ref": "API 510 7.1",
@@ -100,7 +100,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -124,7 +124,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -148,7 +148,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Future corrosion allowance",
+  "subtopic": "Calc — Future corrosion allowance",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -160,7 +160,7 @@
     "0.49 in"
    ],
    "answer": 2,
-   "explanation": "t_used = t_measured \u2212 (corrosion rate \u00d7 interval) = 0.5 \u2212 (0.01 \u00d7 10) = 0.4 in."
+   "explanation": "t_used = t_measured − (corrosion rate × interval) = 0.5 − (0.01 × 10) = 0.4 in."
   },
   "meta": {
    "ref": "API 510 7.5",
@@ -172,7 +172,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -184,7 +184,7 @@
     "15.15 psi"
    ],
    "answer": 3,
-   "explanation": "Static head = 0.433 psi/ft \u00d7 height \u00d7 SG = 0.433 \u00d7 35 \u00d7 1.0 = 15.15 psi."
+   "explanation": "Static head = 0.433 psi/ft × height × SG = 0.433 × 35 × 1.0 = 15.15 psi."
   },
   "meta": {
    "ref": "API 510 BOK I.A.3",
@@ -196,7 +196,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -208,7 +208,7 @@
     "78.35 psi"
    ],
    "answer": 0,
-   "explanation": "Total = MAWP + static head = 100 + (0.433 \u00d7 50) = 121.65 psi."
+   "explanation": "Total = MAWP + static head = 100 + (0.433 × 50) = 121.65 psi."
   },
   "meta": {
    "ref": "ASME VIII-1 UG-98 / API 510 BOK",
@@ -220,11 +220,11 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (shell)",
+  "subtopic": "Calc — Internal pressure (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
-   "stem": "Determine the required thickness of a cylindrical shell for internal pressure (circumferential stress). P = 300 psi, inside radius R = 30 in., S = 17500 psi, E = 1.0. Use t = PR/(SE \u2212 0.6P).",
+   "stem": "Determine the required thickness of a cylindrical shell for internal pressure (circumferential stress). P = 300 psi, inside radius R = 30 in., S = 17500 psi, E = 1.0. Use t = PR/(SE − 0.6P).",
    "options": [
     "0.5143 in",
     "0.5196 in",
@@ -232,7 +232,7 @@
     "0.509 in"
    ],
    "answer": 1,
-   "explanation": "t = PR/(SE \u2212 0.6P) = (300 \u00d7 30) / ((17500 \u00d7 1.0) \u2212 0.6 \u00d7 300) = 0.5196 in."
+   "explanation": "t = PR/(SE − 0.6P) = (300 × 30) / ((17500 × 1.0) − 0.6 × 300) = 0.5196 in."
   },
   "meta": {
    "ref": "ASME VIII-1 UG-27(c)(1)",
@@ -244,7 +244,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (shell)",
+  "subtopic": "Calc — Internal pressure (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -256,7 +256,7 @@
     "364.6 psi"
    ],
    "answer": 2,
-   "explanation": "P = SEt/(R + 0.6t) = (17500 \u00d7 0.85 \u00d7 0.5) / (24 + 0.6 \u00d7 0.5) = 306.1 psi."
+   "explanation": "P = SEt/(R + 0.6t) = (17500 × 0.85 × 0.5) / (24 + 0.6 × 0.5) = 306.1 psi."
   },
   "meta": {
    "ref": "ASME VIII-1 UG-27(c)(1)",
@@ -268,11 +268,11 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (shell)",
+  "subtopic": "Calc — Internal pressure (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
-   "stem": "A cylindrical shell requires a pressure-design thickness from t = PR/(SE \u2212 0.6P) with P = 250 psi, R = 30 in., S = 17500 psi, E = 1.0. If a corrosion allowance of 0.125 in. must be added, what is the total required thickness?",
+   "stem": "A cylindrical shell requires a pressure-design thickness from t = PR/(SE − 0.6P) with P = 250 psi, R = 30 in., S = 17500 psi, E = 1.0. If a corrosion allowance of 0.125 in. must be added, what is the total required thickness?",
    "options": [
     "0.432 in",
     "0.307 in",
@@ -280,7 +280,7 @@
     "0.557 in"
    ],
    "answer": 3,
-   "explanation": "Pressure-design t = (250\u00d730)/((17500\u00d71.0) \u2212 0.6\u00d7250) = 0.4323 in; add CA 0.125 \u2192 0.5573 in."
+   "explanation": "Pressure-design t = (250×30)/((17500×1.0) − 0.6×250) = 0.4323 in; add CA 0.125 → 0.5573 in."
   },
   "meta": {
    "ref": "ASME VIII-1 UG-27(c)(1)",
@@ -292,7 +292,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -316,7 +316,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -340,7 +340,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -364,7 +364,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -388,7 +388,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -412,7 +412,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -436,7 +436,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -448,7 +448,7 @@
     "220 psi"
    ],
    "answer": 2,
-   "explanation": "Standard hydrostatic test pressure = 1.3 \u00d7 MAWP \u00d7 (S_test/S_design). With the stress ratio = 1, = 1.3 \u00d7 200 = 260 psi. (The 1.5\u00d7 factor is the older pre-1999 basis.)"
+   "explanation": "Standard hydrostatic test pressure = 1.3 × MAWP × (S_test/S_design). With the stress ratio = 1, = 1.3 × 200 = 260 psi. (The 1.5× factor is the older pre-1999 basis.)"
   },
   "meta": {
    "ref": "ASME VIII-1 UG-99(b)",
@@ -460,7 +460,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -472,7 +472,7 @@
     "234 psi"
    ],
    "answer": 3,
-   "explanation": "Test pressure = 1.3 \u00d7 MAWP \u00d7 (S_test/S_design) = 1.3 \u00d7 150 \u00d7 1.2 = 234 psi."
+   "explanation": "Test pressure = 1.3 × MAWP × (S_test/S_design) = 1.3 × 150 × 1.2 = 234 psi."
   },
   "meta": {
    "ref": "ASME VIII-1 UG-99(b)",
@@ -484,7 +484,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -496,7 +496,7 @@
     "0.7 in"
    ],
    "answer": 0,
-   "explanation": "Throat = 0.7 \u00d7 leg, so leg = throat / 0.7 = 0.35 / 0.7 = 0.5 in."
+   "explanation": "Throat = 0.7 × leg, so leg = throat / 0.7 = 0.35 / 0.7 = 0.5 in."
   },
   "meta": {
    "ref": "ASME VIII-1 UW-16 / API 510 BOK",
@@ -508,7 +508,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -520,7 +520,7 @@
     "0.25 in"
    ],
    "answer": 1,
-   "explanation": "Throat = 0.7 \u00d7 leg = 0.7 \u00d7 0.5 = 0.35 in."
+   "explanation": "Throat = 0.7 × leg = 0.7 × 0.5 = 0.35 in."
   },
   "meta": {
    "ref": "ASME VIII-1 UW-16",
@@ -532,7 +532,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Responsibilities",
+  "subtopic": "API 510 — Responsibilities",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -556,7 +556,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Responsibilities",
+  "subtopic": "API 510 — Responsibilities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -580,7 +580,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Scope",
+  "subtopic": "API 510 — Scope",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -592,7 +592,7 @@
     "Buried and aboveground process piping circuit systems"
    ],
    "answer": 0,
-   "explanation": "API 510 covers in-service pressure vessels \u2014 inspection, rating, repair, and alteration. New construction is covered by the construction code (e.g., ASME VIII)."
+   "explanation": "API 510 covers in-service pressure vessels — inspection, rating, repair, and alteration. New construction is covered by the construction code (e.g., ASME VIII)."
   },
   "meta": {
    "ref": "API 510 1.1",
@@ -604,7 +604,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Rating",
+  "subtopic": "API 510 — Rating",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -628,7 +628,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Rerating",
+  "subtopic": "API 510 — Rerating",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -652,7 +652,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 CMLs",
+  "subtopic": "API 510 — CMLs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -676,7 +676,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 CMLs",
+  "subtopic": "API 510 — CMLs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -700,7 +700,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Inspection types",
+  "subtopic": "API 510 — Inspection types",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -724,7 +724,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Inspection intervals",
+  "subtopic": "API 510 — Inspection intervals",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -748,7 +748,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 RBI",
+  "subtopic": "API 510 — RBI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -772,7 +772,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 RBI",
+  "subtopic": "API 510 — RBI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -796,7 +796,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs/alterations",
+  "subtopic": "API 510 — Repairs/alterations",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -820,7 +820,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs/alterations",
+  "subtopic": "API 510 — Repairs/alterations",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -844,7 +844,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Records",
+  "subtopic": "API 510 — Records",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -868,7 +868,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Integrity operating windows",
+  "subtopic": "API 510 — Integrity operating windows",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -892,7 +892,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 CUI",
+  "subtopic": "API 510 — CUI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -916,7 +916,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Thickness evaluation",
+  "subtopic": "API 510 — Thickness evaluation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -940,7 +940,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 FFS",
+  "subtopic": "API 510 — FFS",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -966,7 +966,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Atmospheric corrosion",
+  "subtopic": "RP 571 — Atmospheric corrosion",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -992,7 +992,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Caustic corrosion",
+  "subtopic": "RP 571 — Caustic corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1019,7 +1019,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Caustic SCC",
+  "subtopic": "RP 571 — Caustic SCC",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1045,7 +1045,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 CUI",
+  "subtopic": "RP 571 — CUI",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1070,7 +1070,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Amine SCC",
+  "subtopic": "RP 571 — Amine SCC",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1095,7 +1095,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Boiler water/condensate",
+  "subtopic": "RP 571 — Boiler water/condensate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1120,7 +1120,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Chloride SCC",
+  "subtopic": "RP 571 — Chloride SCC",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1145,7 +1145,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Erosion/erosion-corrosion",
+  "subtopic": "RP 571 — Erosion/erosion-corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1170,7 +1170,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Hydrochloric acid corrosion",
+  "subtopic": "RP 571 — Hydrochloric acid corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1195,7 +1195,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Sulfidation",
+  "subtopic": "RP 571 — Sulfidation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1207,7 +1207,7 @@
     "Only at temperatures below ambient conditions"
    ],
    "answer": 1,
-   "explanation": "Sulfidation of carbon and low-alloy steels generally initiates around 450\u2013500\u00b0F and increases with temperature and sulfur content; silicon content influences carbon-steel rates."
+   "explanation": "Sulfidation of carbon and low-alloy steels generally initiates around 450–500°F and increases with temperature and sulfur content; silicon content influences carbon-steel rates."
   },
   "meta": {
    "ref": "RP 571 3.61",
@@ -1220,7 +1220,7 @@
    "510",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Brittle fracture",
+  "subtopic": "RP 571 — Brittle fracture",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1244,7 +1244,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 High-temp H2/H2S corrosion",
+  "subtopic": "RP 571 — High-temp H2/H2S corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1268,7 +1268,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 HTHA",
+  "subtopic": "RP 571 — HTHA",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -1292,7 +1292,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Naphthenic acid corrosion",
+  "subtopic": "RP 571 — Naphthenic acid corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1304,7 +1304,7 @@
     "Hydrogen blistering forming at steel inclusions"
    ],
    "answer": 1,
-   "explanation": "NAC produces localized, sometimes sharp-edged grooving in high-velocity zones of high-TAN crude at elevated temperatures (~425\u2013750\u00b0F); sulfur content and alloy (Mo) influence severity."
+   "explanation": "NAC produces localized, sometimes sharp-edged grooving in high-velocity zones of high-TAN crude at elevated temperatures (~425–750°F); sulfur content and alloy (Mo) influence severity."
   },
   "meta": {
    "ref": "RP 571 3.46",
@@ -1316,7 +1316,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Wet H2S damage",
+  "subtopic": "RP 571 — Wet H2S damage",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -1340,7 +1340,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Inspection practices",
+  "subtopic": "RP 572 — Inspection practices",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1352,7 +1352,7 @@
     "Establish safe confined-space entry conditions first"
    ],
    "answer": 3,
-   "explanation": "Confined-space entry preparation \u2014 isolation, depressurization, purging, gas testing, and permits \u2014 is the essential safety precaution before internal inspection."
+   "explanation": "Confined-space entry preparation — isolation, depressurization, purging, gas testing, and permits — is the essential safety precaution before internal inspection."
   },
   "meta": {
    "ref": "RP 572 (safety)",
@@ -1364,7 +1364,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Inspection methods",
+  "subtopic": "RP 572 — Inspection methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1388,7 +1388,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Vessel internals",
+  "subtopic": "RP 572 — Vessel internals",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1412,7 +1412,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Nozzles/connections",
+  "subtopic": "RP 572 — Nozzles/connections",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1436,7 +1436,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1460,7 +1460,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Inspection",
+  "subtopic": "RP 576 — Inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1484,7 +1484,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Testing",
+  "subtopic": "RP 576 — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1510,7 +1510,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding processes",
+  "subtopic": "RP 577 — Welding processes",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1536,7 +1536,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding metallurgy",
+  "subtopic": "RP 577 — Welding metallurgy",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1562,7 +1562,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Preheat",
+  "subtopic": "RP 577 — Preheat",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1588,7 +1588,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 PWHT",
+  "subtopic": "RP 577 — PWHT",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1614,7 +1614,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Weld discontinuities",
+  "subtopic": "RP 577 — Weld discontinuities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1639,7 +1639,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1664,7 +1664,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 Material mix-up",
+  "subtopic": "RP 578 — Material mix-up",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1688,7 +1688,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Weld categories",
+  "subtopic": "ASME VIII — Weld categories",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1712,7 +1712,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Weld categories",
+  "subtopic": "ASME VIII — Weld categories",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1736,7 +1736,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Weld categories",
+  "subtopic": "ASME VIII — Weld categories",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1760,7 +1760,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Radiography",
+  "subtopic": "ASME VIII — Radiography",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1784,7 +1784,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Heads",
+  "subtopic": "ASME VIII — Heads",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1808,7 +1808,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Testing",
+  "subtopic": "ASME VIII — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1832,7 +1832,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Impact testing",
+  "subtopic": "ASME VIII — Impact testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -1844,7 +1844,7 @@
     "Toughness curves of thickness versus MDMT"
    ],
    "answer": 3,
-   "explanation": "UCS-66 assigns materials to curves A\u2013D; the curve and governing thickness give the MDMT at which impact testing is/ is not required (with possible exemptions in UG-20(f))."
+   "explanation": "UCS-66 assigns materials to curves A–D; the curve and governing thickness give the MDMT at which impact testing is/ is not required (with possible exemptions in UG-20(f))."
   },
   "meta": {
    "ref": "ASME VIII-1 UCS-66",
@@ -1856,7 +1856,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Impact testing",
+  "subtopic": "ASME VIII — Impact testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -1880,7 +1880,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 NDE",
+  "subtopic": "ASME VIII — NDE",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1905,7 +1905,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 WPS/PQR",
+  "subtopic": "ASME IX — WPS/PQR",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1934,7 +1934,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 WPS/PQR",
+  "subtopic": "ASME IX — WPS/PQR",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -1963,7 +1963,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Essential variables",
+  "subtopic": "ASME IX — Essential variables",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -1992,7 +1992,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Essential variables",
+  "subtopic": "ASME IX — Essential variables",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2021,7 +2021,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 P-Numbers",
+  "subtopic": "ASME IX — P-Numbers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2050,7 +2050,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 F-Numbers",
+  "subtopic": "ASME IX — F-Numbers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2079,7 +2079,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Mechanical tests",
+  "subtopic": "ASME IX — Mechanical tests",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2109,7 +2109,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 1",
+  "subtopic": "ASME V — Article 1",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -2139,7 +2139,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2169,7 +2169,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2199,7 +2199,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 6 (PT)",
+  "subtopic": "ASME V — Article 6 (PT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2229,7 +2229,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 6 (PT)",
+  "subtopic": "ASME V — Article 6 (PT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2259,7 +2259,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 7 (MT)",
+  "subtopic": "ASME V — Article 7 (MT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2289,7 +2289,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23 (UT)",
+  "subtopic": "ASME V — Article 23 (UT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2301,7 +2301,7 @@
     "Manual ultrasonic pulse-echo thickness measurement"
    ],
    "answer": 3,
-   "explanation": "SE-797 is the standard practice for measuring thickness by manual ultrasonic pulse-echo contact \u2014 the method used for UT thickness gauging referenced in Article 23."
+   "explanation": "SE-797 is the standard practice for measuring thickness by manual ultrasonic pulse-echo contact — the method used for UT thickness gauging referenced in Article 23."
   },
   "meta": {
    "ref": "Section V Article 23",
@@ -2319,7 +2319,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23 (UT)",
+  "subtopic": "ASME V — Article 23 (UT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2348,7 +2348,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 201",
+  "subtopic": "PCC-2 — Article 201",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2373,7 +2373,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 211",
+  "subtopic": "PCC-2 — Article 211",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2398,7 +2398,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 212",
+  "subtopic": "PCC-2 — Article 212",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2423,7 +2423,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 210",
+  "subtopic": "PCC-2 — Article 210",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2449,7 +2449,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 304",
+  "subtopic": "PCC-2 — Article 304",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2473,11 +2473,11 @@
   "exams": [
    "510"
   ],
-  "subtopic": "PCC-2 \u2014 Article 216",
+  "subtopic": "PCC-2 — Article 216",
   "tier": "core",
   "difficulty": "hard",
   "content": {
-   "stem": "PCC-2 Article 216 (welded hot taps) \u2014 a hot tap allows a new branch connection to be made:",
+   "stem": "PCC-2 Article 216 (welded hot taps) — a hot tap allows a new branch connection to be made:",
    "options": [
     "Only after a complete shutdown and full draining",
     "Without any welding being performed on it at all",
@@ -2497,7 +2497,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "PCC-2 \u2014 Article 312",
+  "subtopic": "PCC-2 — Article 312",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2521,7 +2521,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2545,7 +2545,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2569,7 +2569,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2593,7 +2593,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP with future corrosion",
+  "subtopic": "Calc — MAWP with future corrosion",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2617,7 +2617,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2641,7 +2641,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2665,7 +2665,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2689,7 +2689,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -2713,7 +2713,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (shell)",
+  "subtopic": "Calc — Internal pressure (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2737,7 +2737,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2761,7 +2761,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2785,7 +2785,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2809,7 +2809,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2833,7 +2833,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -2857,7 +2857,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Nozzle reinforcement",
+  "subtopic": "Calc — Nozzle reinforcement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -2881,7 +2881,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Temporary repairs",
+  "subtopic": "API 510 — Temporary repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2905,7 +2905,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2929,7 +2929,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs/NDE",
+  "subtopic": "API 510 — Repairs/NDE",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2953,7 +2953,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Rating",
+  "subtopic": "API 510 — Rating",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -2977,7 +2977,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Intervals",
+  "subtopic": "API 510 — Intervals",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3001,7 +3001,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Personnel",
+  "subtopic": "API 510 — Personnel",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3025,7 +3025,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Testing",
+  "subtopic": "API 510 — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3049,7 +3049,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 CMLs",
+  "subtopic": "API 510 — CMLs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3073,7 +3073,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Records",
+  "subtopic": "API 510 — Records",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -3097,7 +3097,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Operations",
+  "subtopic": "API 510 — Operations",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3123,7 +3123,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Atmospheric corrosion",
+  "subtopic": "RP 571 — Atmospheric corrosion",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -3149,7 +3149,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 CUI",
+  "subtopic": "RP 571 — CUI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3174,7 +3174,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Sulfidation",
+  "subtopic": "RP 571 — Sulfidation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3198,7 +3198,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 HTHA",
+  "subtopic": "RP 571 — HTHA",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3223,7 +3223,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Amine SCC",
+  "subtopic": "RP 571 — Amine SCC",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3247,7 +3247,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Wet H2S damage",
+  "subtopic": "RP 571 — Wet H2S damage",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3272,7 +3272,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Erosion-corrosion",
+  "subtopic": "RP 571 — Erosion-corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3297,7 +3297,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Chloride SCC",
+  "subtopic": "RP 571 — Chloride SCC",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3321,7 +3321,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 PWHT",
+  "subtopic": "ASME VIII — PWHT",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3346,7 +3346,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Toughness",
+  "subtopic": "ASME VIII — Toughness",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3370,7 +3370,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Nozzles",
+  "subtopic": "ASME VIII — Nozzles",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3394,7 +3394,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Heads",
+  "subtopic": "ASME VIII — Heads",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3418,7 +3418,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Testing",
+  "subtopic": "ASME VIII — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3443,7 +3443,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 A-Numbers",
+  "subtopic": "ASME IX — A-Numbers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3472,7 +3472,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Variables",
+  "subtopic": "ASME IX — Variables",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3501,7 +3501,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Welder qualification",
+  "subtopic": "ASME IX — Welder qualification",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3531,7 +3531,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3561,7 +3561,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 6 (PT)",
+  "subtopic": "ASME V — Article 6 (PT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3591,7 +3591,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 7 (MT)",
+  "subtopic": "ASME V — Article 7 (MT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3621,7 +3621,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23 (UT)",
+  "subtopic": "ASME V — Article 23 (UT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3649,7 +3649,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Inspection methods",
+  "subtopic": "RP 572 — Inspection methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3673,7 +3673,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Vessel components",
+  "subtopic": "RP 572 — Vessel components",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3697,7 +3697,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3721,7 +3721,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Inspection",
+  "subtopic": "RP 576 — Inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3747,7 +3747,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding inspection",
+  "subtopic": "RP 577 — Welding inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3773,7 +3773,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Metallurgy",
+  "subtopic": "RP 577 — Metallurgy",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3799,7 +3799,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Discontinuities",
+  "subtopic": "RP 577 — Discontinuities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3824,7 +3824,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3849,7 +3849,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 209",
+  "subtopic": "PCC-2 — Article 209",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3874,7 +3874,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 305",
+  "subtopic": "PCC-2 — Article 305",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3898,7 +3898,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "PCC-2 \u2014 Article 202",
+  "subtopic": "PCC-2 — Article 202",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -3922,7 +3922,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3946,7 +3946,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3970,7 +3970,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -3994,7 +3994,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining corrosion allowance",
+  "subtopic": "Calc — Remaining corrosion allowance",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -4018,7 +4018,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (shell)",
+  "subtopic": "Calc — MAWP (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4042,7 +4042,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (head)",
+  "subtopic": "Calc — MAWP (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4066,7 +4066,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (shell)",
+  "subtopic": "Calc — Internal pressure (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4090,7 +4090,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4114,7 +4114,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4138,7 +4138,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4162,7 +4162,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4186,7 +4186,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -4210,7 +4210,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Nozzle reinforcement",
+  "subtopic": "Calc — Nozzle reinforcement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4234,7 +4234,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Impact/MDMT",
+  "subtopic": "Calc — Impact/MDMT",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4258,7 +4258,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Responsibilities",
+  "subtopic": "API 510 — Responsibilities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4282,7 +4282,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Personnel",
+  "subtopic": "API 510 — Personnel",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4306,7 +4306,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4330,7 +4330,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Intervals",
+  "subtopic": "API 510 — Intervals",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4354,7 +4354,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 FFS",
+  "subtopic": "API 510 — FFS",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4378,7 +4378,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 RBI",
+  "subtopic": "API 510 — RBI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4402,7 +4402,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Records",
+  "subtopic": "API 510 — Records",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -4426,7 +4426,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 CMLs",
+  "subtopic": "API 510 — CMLs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4450,7 +4450,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4474,7 +4474,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Operations",
+  "subtopic": "API 510 — Operations",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4500,7 +4500,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Caustic SCC",
+  "subtopic": "RP 571 — Caustic SCC",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4524,7 +4524,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Naphthenic acid corrosion",
+  "subtopic": "RP 571 — Naphthenic acid corrosion",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4548,7 +4548,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 HTHA",
+  "subtopic": "RP 571 — HTHA",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4573,7 +4573,7 @@
    "510",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Brittle fracture",
+  "subtopic": "RP 571 — Brittle fracture",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4598,7 +4598,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Sulfidation",
+  "subtopic": "RP 571 — Sulfidation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4624,7 +4624,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 CUI",
+  "subtopic": "RP 571 — CUI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4649,7 +4649,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Erosion-corrosion",
+  "subtopic": "RP 571 — Erosion-corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4674,7 +4674,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Hydrochloric acid corrosion",
+  "subtopic": "RP 571 — Hydrochloric acid corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4698,7 +4698,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Welded joints",
+  "subtopic": "ASME VIII — Welded joints",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4722,7 +4722,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 PWHT",
+  "subtopic": "ASME VIII — PWHT",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4747,7 +4747,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Nozzles",
+  "subtopic": "ASME VIII — Nozzles",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -4771,7 +4771,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Testing",
+  "subtopic": "ASME VIII — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4796,7 +4796,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Variables",
+  "subtopic": "ASME IX — Variables",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4825,7 +4825,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Processes",
+  "subtopic": "ASME IX — Processes",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4855,7 +4855,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4885,7 +4885,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 6 (PT)",
+  "subtopic": "ASME V — Article 6 (PT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4915,7 +4915,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 7 (MT)",
+  "subtopic": "ASME V — Article 7 (MT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4945,7 +4945,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23 (UT)",
+  "subtopic": "ASME V — Article 23 (UT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4973,7 +4973,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Inspection methods",
+  "subtopic": "RP 572 — Inspection methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -4997,7 +4997,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5023,7 +5023,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Metallurgy",
+  "subtopic": "RP 577 — Metallurgy",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5049,7 +5049,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding inspection",
+  "subtopic": "RP 577 — Welding inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5074,7 +5074,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5099,7 +5099,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 101",
+  "subtopic": "PCC-2 — Article 101",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5124,7 +5124,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 201",
+  "subtopic": "PCC-2 — Article 201",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5148,7 +5148,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5172,7 +5172,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5196,7 +5196,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5220,7 +5220,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (shell)",
+  "subtopic": "Calc — MAWP (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5244,7 +5244,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (sphere)",
+  "subtopic": "Calc — Internal pressure (sphere)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5268,7 +5268,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (head)",
+  "subtopic": "Calc — MAWP (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5292,7 +5292,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5316,7 +5316,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5340,7 +5340,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5364,7 +5364,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -5388,7 +5388,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Nozzle reinforcement",
+  "subtopic": "Calc — Nozzle reinforcement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5412,7 +5412,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Rerating",
+  "subtopic": "API 510 — Rerating",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5436,7 +5436,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Temporary repairs",
+  "subtopic": "API 510 — Temporary repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5460,7 +5460,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5484,7 +5484,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs/NDE",
+  "subtopic": "API 510 — Repairs/NDE",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5508,7 +5508,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Inspection",
+  "subtopic": "API 510 — Inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5532,7 +5532,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Thickness monitoring",
+  "subtopic": "API 510 — Thickness monitoring",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5556,7 +5556,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Records",
+  "subtopic": "API 510 — Records",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -5580,7 +5580,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Responsibilities",
+  "subtopic": "API 510 — Responsibilities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5605,7 +5605,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Boiler water/condensate",
+  "subtopic": "RP 571 — Boiler water/condensate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5631,7 +5631,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Caustic corrosion",
+  "subtopic": "RP 571 — Caustic corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5656,7 +5656,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 High-temp H2/H2S corrosion",
+  "subtopic": "RP 571 — High-temp H2/H2S corrosion",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5681,7 +5681,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Chloride SCC",
+  "subtopic": "RP 571 — Chloride SCC",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5705,7 +5705,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Wet H2S damage",
+  "subtopic": "RP 571 — Wet H2S damage",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5731,7 +5731,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Atmospheric corrosion",
+  "subtopic": "RP 571 — Atmospheric corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5755,7 +5755,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Loadings",
+  "subtopic": "ASME VIII — Loadings",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5779,7 +5779,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Service",
+  "subtopic": "ASME VIII — Service",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5803,7 +5803,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Radiography",
+  "subtopic": "ASME VIII — Radiography",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5827,7 +5827,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Impact testing",
+  "subtopic": "ASME VIII — Impact testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5852,7 +5852,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Welder qualification",
+  "subtopic": "ASME IX — Welder qualification",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5881,7 +5881,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 P-Numbers",
+  "subtopic": "ASME IX — P-Numbers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5911,7 +5911,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -5941,7 +5941,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 6 (PT)",
+  "subtopic": "ASME V — Article 6 (PT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5971,7 +5971,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 7 (MT)",
+  "subtopic": "ASME V — Article 7 (MT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -5999,7 +5999,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Inspection methods",
+  "subtopic": "RP 572 — Inspection methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6023,7 +6023,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6049,7 +6049,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Metallurgy",
+  "subtopic": "RP 577 — Metallurgy",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6075,7 +6075,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Discontinuities",
+  "subtopic": "RP 577 — Discontinuities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6100,7 +6100,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6125,7 +6125,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 211",
+  "subtopic": "PCC-2 — Article 211",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6150,7 +6150,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 304",
+  "subtopic": "PCC-2 — Article 304",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6174,7 +6174,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6198,7 +6198,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6222,7 +6222,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6246,7 +6246,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (shell)",
+  "subtopic": "Calc — MAWP (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6270,7 +6270,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6294,7 +6294,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6318,7 +6318,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6342,7 +6342,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6366,7 +6366,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6390,7 +6390,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -6414,7 +6414,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency",
+  "subtopic": "Calc — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6438,7 +6438,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6462,7 +6462,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6487,7 +6487,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6513,7 +6513,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6539,7 +6539,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6564,7 +6564,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6589,7 +6589,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6614,7 +6614,7 @@
    "510",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6638,7 +6638,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Inspection planning",
+  "subtopic": "API 510 — Inspection planning",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6662,7 +6662,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Damage",
+  "subtopic": "API 510 — Damage",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6686,7 +6686,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Testing",
+  "subtopic": "API 510 — Testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6710,7 +6710,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Alterations",
+  "subtopic": "API 510 — Alterations",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6734,7 +6734,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Data review",
+  "subtopic": "API 510 — Data review",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6758,7 +6758,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Pressure relief",
+  "subtopic": "API 510 — Pressure relief",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6782,7 +6782,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Internal pressure",
+  "subtopic": "ASME VIII — Internal pressure",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6806,7 +6806,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Marking",
+  "subtopic": "ASME VIII — Marking",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -6830,7 +6830,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Proof testing",
+  "subtopic": "ASME VIII — Proof testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -6854,7 +6854,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Welded joints",
+  "subtopic": "ASME VIII — Welded joints",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6878,7 +6878,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Radiography",
+  "subtopic": "ASME VIII — Radiography",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6903,7 +6903,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Welder qualification",
+  "subtopic": "ASME IX — Welder qualification",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6932,7 +6932,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Mechanical tests",
+  "subtopic": "ASME IX — Mechanical tests",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6962,7 +6962,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -6992,7 +6992,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23 (UT)",
+  "subtopic": "ASME V — Article 23 (UT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7020,7 +7020,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 External inspection",
+  "subtopic": "RP 572 — External inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7044,7 +7044,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7070,7 +7070,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding inspection",
+  "subtopic": "RP 577 — Welding inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7095,7 +7095,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7119,7 +7119,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "PCC-2 \u2014 Article 215",
+  "subtopic": "PCC-2 — Article 215",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7144,7 +7144,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 210",
+  "subtopic": "PCC-2 — Article 210",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7169,7 +7169,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7193,7 +7193,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Corrosion allowance",
+  "subtopic": "Calc — Corrosion allowance",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7217,7 +7217,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7241,7 +7241,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7265,7 +7265,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (governing)",
+  "subtopic": "Calc — MAWP (governing)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7289,7 +7289,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (shell)",
+  "subtopic": "Calc — Internal pressure (shell)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7313,7 +7313,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Internal pressure (head)",
+  "subtopic": "Calc — Internal pressure (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7337,7 +7337,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 MAWP (head)",
+  "subtopic": "Calc — MAWP (head)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7361,7 +7361,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Pressure testing",
+  "subtopic": "Calc — Pressure testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7385,7 +7385,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7409,7 +7409,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Weld sizing",
+  "subtopic": "Calc — Weld sizing",
   "tier": "core",
   "difficulty": "easy",
   "content": {
@@ -7433,7 +7433,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "Calc \u2014 Minimum thickness",
+  "subtopic": "Calc — Minimum thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7458,7 +7458,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7482,7 +7482,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7508,7 +7508,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7532,7 +7532,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Design considerations",
+  "subtopic": "API 510 — Design considerations",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7556,7 +7556,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7580,7 +7580,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7604,7 +7604,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 External pressure",
+  "subtopic": "API 510 — External pressure",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7628,7 +7628,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Inspection planning",
+  "subtopic": "API 510 — Inspection planning",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7652,7 +7652,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Rating",
+  "subtopic": "API 510 — Rating",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7676,7 +7676,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "API 510 \u2014 Repairs",
+  "subtopic": "API 510 — Repairs",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7700,7 +7700,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Minimum thickness",
+  "subtopic": "ASME VIII — Minimum thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7725,7 +7725,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Corrosion",
+  "subtopic": "ASME VIII — Corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7749,7 +7749,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Openings",
+  "subtopic": "ASME VIII — Openings",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7773,7 +7773,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Forming",
+  "subtopic": "ASME VIII — Forming",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7797,7 +7797,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "ASME VIII \u2014 Flanges",
+  "subtopic": "ASME VIII — Flanges",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7822,7 +7822,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Variables",
+  "subtopic": "ASME IX — Variables",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7851,7 +7851,7 @@
    "510",
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Variables",
+  "subtopic": "ASME IX — Variables",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -7881,7 +7881,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 1",
+  "subtopic": "ASME V — Article 1",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7911,7 +7911,7 @@
    "570",
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23 (UT)",
+  "subtopic": "ASME V — Article 23 (UT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7939,7 +7939,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 572 \u2014 Inspection",
+  "subtopic": "RP 572 — Inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7963,7 +7963,7 @@
   "exams": [
    "510"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -7989,7 +7989,7 @@
    "570",
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding inspection",
+  "subtopic": "RP 577 — Welding inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8014,7 +8014,7 @@
    "510",
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8039,7 +8039,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 305",
+  "subtopic": "PCC-2 — Article 305",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8064,7 +8064,7 @@
    "510",
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 201",
+  "subtopic": "PCC-2 — Article 201",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8088,7 +8088,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8112,7 +8112,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8136,7 +8136,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8160,7 +8160,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure capacity",
+  "subtopic": "Calc — B31.3 pressure capacity",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8184,7 +8184,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure capacity",
+  "subtopic": "Calc — B31.3 pressure capacity",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8208,7 +8208,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Required thickness",
+  "subtopic": "Calc — Required thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8232,7 +8232,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8256,7 +8256,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8280,7 +8280,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8304,7 +8304,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8328,7 +8328,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8352,7 +8352,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8376,7 +8376,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8400,7 +8400,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Galvanic",
+  "subtopic": "RP 571 — Galvanic",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8424,7 +8424,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8448,7 +8448,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanical fatigue",
+  "subtopic": "RP 571 — Mechanical fatigue",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8472,7 +8472,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8496,7 +8496,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8520,7 +8520,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Soil corrosion",
+  "subtopic": "RP 571 — Soil corrosion",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8544,7 +8544,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8568,7 +8568,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Piping classes",
+  "subtopic": "API 570 — Piping classes",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8592,7 +8592,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 CMLs",
+  "subtopic": "API 570 — CMLs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8616,7 +8616,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Injection points",
+  "subtopic": "API 570 — Injection points",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8640,7 +8640,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Dead legs",
+  "subtopic": "API 570 — Dead legs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8664,7 +8664,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Repairs",
+  "subtopic": "API 570 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8688,7 +8688,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Rerating",
+  "subtopic": "API 570 — Rerating",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8712,7 +8712,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Temporary repairs",
+  "subtopic": "API 570 — Temporary repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8736,7 +8736,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Piping components",
+  "subtopic": "RP 574 — Piping components",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8760,7 +8760,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Piping components",
+  "subtopic": "RP 574 — Piping components",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8784,7 +8784,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Flanges",
+  "subtopic": "ASME B16.5 — Flanges",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8808,7 +8808,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Flanges",
+  "subtopic": "ASME B16.5 — Flanges",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8832,7 +8832,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 501",
+  "subtopic": "PCC-2 — Article 501",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8856,7 +8856,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 502",
+  "subtopic": "PCC-2 — Article 502",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -8880,7 +8880,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 206",
+  "subtopic": "PCC-2 — Article 206",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8904,7 +8904,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 306",
+  "subtopic": "PCC-2 — Article 306",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8928,7 +8928,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 6 (PT)",
+  "subtopic": "ASME V — Article 6 (PT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8952,7 +8952,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 7 (MT)",
+  "subtopic": "ASME V — Article 7 (MT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -8976,7 +8976,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9000,7 +9000,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9024,7 +9024,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Mill tolerance",
+  "subtopic": "Calc — Mill tolerance",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9048,7 +9048,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure capacity",
+  "subtopic": "Calc — B31.3 pressure capacity",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9072,7 +9072,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Hydrostatic test",
+  "subtopic": "Calc — Hydrostatic test",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9096,7 +9096,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Hydrostatic test",
+  "subtopic": "Calc — Hydrostatic test",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9120,7 +9120,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9144,7 +9144,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9168,7 +9168,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9192,7 +9192,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9216,7 +9216,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9240,7 +9240,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Inspection intervals",
+  "subtopic": "API 570 — Inspection intervals",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9264,7 +9264,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 CUI",
+  "subtopic": "API 570 — CUI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9288,7 +9288,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Buried piping",
+  "subtopic": "API 570 — Buried piping",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9312,7 +9312,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Pressure testing",
+  "subtopic": "API 570 — Pressure testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9336,7 +9336,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 On-stream inspection",
+  "subtopic": "API 570 — On-stream inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9360,7 +9360,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Small-bore piping",
+  "subtopic": "API 570 — Small-bore piping",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9384,7 +9384,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Minimum thickness",
+  "subtopic": "API 570 — Minimum thickness",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9408,7 +9408,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Records",
+  "subtopic": "API 570 — Records",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9432,7 +9432,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Welding",
+  "subtopic": "ASME B31.3 — Welding",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9456,7 +9456,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 PWHT",
+  "subtopic": "ASME B31.3 — PWHT",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9480,7 +9480,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Welding",
+  "subtopic": "ASME B31.3 — Welding",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9504,7 +9504,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Thickness methods",
+  "subtopic": "RP 574 — Thickness methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9528,7 +9528,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Methods",
+  "subtopic": "RP 574 — Methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9552,7 +9552,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9576,7 +9576,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9600,7 +9600,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9624,7 +9624,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 577 \u2014 Welding inspection",
+  "subtopic": "RP 577 — Welding inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9648,7 +9648,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 577 \u2014 Weld discontinuities",
+  "subtopic": "RP 577 — Weld discontinuities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9672,7 +9672,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI",
+  "subtopic": "RP 578 — PMI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9696,7 +9696,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 P-Numbers",
+  "subtopic": "ASME IX — P-Numbers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9720,7 +9720,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Variables",
+  "subtopic": "ASME IX — Variables",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9744,7 +9744,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 WPS",
+  "subtopic": "ASME IX — WPS",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9768,7 +9768,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Flanges",
+  "subtopic": "ASME B16.5 — Flanges",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9792,7 +9792,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Flanges",
+  "subtopic": "ASME B16.5 — Flanges",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9816,7 +9816,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Sour water",
+  "subtopic": "RP 571 — Sour water",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9840,7 +9840,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 MIC",
+  "subtopic": "RP 571 — MIC",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -9864,7 +9864,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9888,7 +9888,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9912,7 +9912,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 high temperature",
+  "subtopic": "Calc — B31.3 high temperature",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9936,7 +9936,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 blank",
+  "subtopic": "Calc — B31.3 blank",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9960,7 +9960,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure capacity",
+  "subtopic": "Calc — B31.3 pressure capacity",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -9984,7 +9984,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure capacity",
+  "subtopic": "Calc — B31.3 pressure capacity",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10008,7 +10008,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10032,7 +10032,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10056,7 +10056,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10080,7 +10080,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Hydrostatic test",
+  "subtopic": "Calc — Hydrostatic test",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10104,7 +10104,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Governing thickness",
+  "subtopic": "Calc — Governing thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10128,7 +10128,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Extent of inspection",
+  "subtopic": "API 570 — Extent of inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10152,7 +10152,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Intervals",
+  "subtopic": "API 570 — Intervals",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10176,7 +10176,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 RBI",
+  "subtopic": "API 570 — RBI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10200,7 +10200,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 MAWP",
+  "subtopic": "API 570 — MAWP",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10224,7 +10224,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Cyclic service",
+  "subtopic": "API 570 — Cyclic service",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10248,7 +10248,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Repairs",
+  "subtopic": "API 570 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10272,7 +10272,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Temporary repairs",
+  "subtopic": "API 570 — Temporary repairs",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10296,7 +10296,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Roles",
+  "subtopic": "API 570 — Roles",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10320,7 +10320,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 CUI extent",
+  "subtopic": "API 570 — CUI extent",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10344,7 +10344,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Branch reinforcement",
+  "subtopic": "ASME B31.3 — Branch reinforcement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10368,7 +10368,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Miter bends",
+  "subtopic": "ASME B31.3 — Miter bends",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10392,7 +10392,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Blanks",
+  "subtopic": "ASME B31.3 — Blanks",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10416,7 +10416,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Flanged joints",
+  "subtopic": "ASME B31.3 — Flanged joints",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10440,7 +10440,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Valves",
+  "subtopic": "RP 574 — Valves",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10464,7 +10464,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Expansion joints",
+  "subtopic": "RP 574 — Expansion joints",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10488,7 +10488,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Sample points",
+  "subtopic": "RP 574 — Sample points",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10512,7 +10512,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Inspection frequency",
+  "subtopic": "RP 574 — Inspection frequency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10536,7 +10536,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10560,7 +10560,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Relief devices",
+  "subtopic": "RP 576 — Relief devices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10584,7 +10584,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 577 \u2014 Preheat",
+  "subtopic": "RP 577 — Preheat",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10608,7 +10608,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 577 \u2014 Discontinuities",
+  "subtopic": "RP 577 — Discontinuities",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10632,7 +10632,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 F-Numbers",
+  "subtopic": "ASME IX — F-Numbers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10656,7 +10656,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Positions",
+  "subtopic": "ASME IX — Positions",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10680,7 +10680,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Thickness range",
+  "subtopic": "ASME IX — Thickness range",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10704,7 +10704,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Flange facing",
+  "subtopic": "ASME B16.5 — Flange facing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10728,7 +10728,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Bolting",
+  "subtopic": "ASME B16.5 — Bolting",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10752,7 +10752,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10776,7 +10776,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10800,7 +10800,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10824,7 +10824,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10848,7 +10848,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 MAWP from measured",
+  "subtopic": "Calc — MAWP from measured",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10873,7 +10873,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 MAWP from measured",
+  "subtopic": "Calc — MAWP from measured",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -10898,7 +10898,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Required thickness",
+  "subtopic": "Calc — Required thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10922,7 +10922,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10946,7 +10946,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10970,7 +10970,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -10994,7 +10994,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Hydrostatic test",
+  "subtopic": "Calc — Hydrostatic test",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11018,7 +11018,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Pneumatic test",
+  "subtopic": "Calc — Pneumatic test",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -11042,7 +11042,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11066,7 +11066,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11090,7 +11090,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 2 (RT)",
+  "subtopic": "ASME V — Article 2 (RT)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -11114,7 +11114,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 9 (VT)",
+  "subtopic": "ASME V — Article 9 (VT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11138,7 +11138,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 9 (VT)",
+  "subtopic": "ASME V — Article 9 (VT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11162,7 +11162,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 10 (LT)",
+  "subtopic": "ASME V — Article 10 (LT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11186,7 +11186,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME V \u2014 Article 10 (LT)",
+  "subtopic": "ASME V — Article 10 (LT)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11210,7 +11210,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Corrosion monitoring",
+  "subtopic": "RP 574 — Corrosion monitoring",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11234,7 +11234,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Threaded connections",
+  "subtopic": "RP 574 — Threaded connections",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11258,7 +11258,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Thickness methods",
+  "subtopic": "RP 574 — Thickness methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11282,7 +11282,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 Injection points",
+  "subtopic": "RP 574 — Injection points",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11306,7 +11306,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 PRV types",
+  "subtopic": "RP 576 — PRV types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11330,7 +11330,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Inspection scope",
+  "subtopic": "RP 576 — Inspection scope",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11354,7 +11354,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Testing",
+  "subtopic": "RP 576 — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11378,7 +11378,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 578 \u2014 PMI methods",
+  "subtopic": "RP 578 — PMI methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11402,7 +11402,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 578 \u2014 Scope",
+  "subtopic": "RP 578 — Scope",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11426,7 +11426,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 578 \u2014 Consequences",
+  "subtopic": "RP 578 — Consequences",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11450,7 +11450,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Examination",
+  "subtopic": "ASME B31.3 — Examination",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11474,7 +11474,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Testing",
+  "subtopic": "ASME B31.3 — Testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11498,7 +11498,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Testing",
+  "subtopic": "ASME B31.3 — Testing",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -11522,7 +11522,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Soil-to-air interface",
+  "subtopic": "API 570 — Soil-to-air interface",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11546,7 +11546,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Cathodic protection",
+  "subtopic": "API 570 — Cathodic protection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11570,7 +11570,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Corrosion rate",
+  "subtopic": "API 570 — Corrosion rate",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -11594,7 +11594,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Leaks",
+  "subtopic": "API 570 — Leaks",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11618,7 +11618,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 CML selection",
+  "subtopic": "API 570 — CML selection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11642,7 +11642,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Piping classes",
+  "subtopic": "API 570 — Piping classes",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11666,7 +11666,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11690,7 +11690,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11714,7 +11714,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -11738,7 +11738,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 B31.3 pressure design",
+  "subtopic": "Calc — B31.3 pressure design",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11762,7 +11762,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 MAWP from measured",
+  "subtopic": "Calc — MAWP from measured",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -11786,7 +11786,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Required thickness",
+  "subtopic": "Calc — Required thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11810,7 +11810,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11834,7 +11834,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11858,7 +11858,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Inspection interval",
+  "subtopic": "Calc — Inspection interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11882,7 +11882,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Hydrostatic test",
+  "subtopic": "Calc — Hydrostatic test",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11906,7 +11906,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "Calc \u2014 Static head",
+  "subtopic": "Calc — Static head",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11930,7 +11930,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Inspection planning",
+  "subtopic": "API 570 — Inspection planning",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11954,7 +11954,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Piping circuits",
+  "subtopic": "API 570 — Piping circuits",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -11978,7 +11978,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 NDE selection",
+  "subtopic": "API 570 — NDE selection",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12002,7 +12002,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Auxiliary piping",
+  "subtopic": "API 570 — Auxiliary piping",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12026,7 +12026,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Data evaluation",
+  "subtopic": "API 570 — Data evaluation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12050,7 +12050,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Repairs",
+  "subtopic": "API 570 — Repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12074,7 +12074,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 CMLs",
+  "subtopic": "API 570 — CMLs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12098,7 +12098,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "API 570 \u2014 Intervals",
+  "subtopic": "API 570 — Intervals",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12122,7 +12122,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 101",
+  "subtopic": "PCC-2 — Article 101",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12146,7 +12146,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "PCC-2 \u2014 Article 502",
+  "subtopic": "PCC-2 — Article 502",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12170,7 +12170,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Closures",
+  "subtopic": "ASME B31.3 — Closures",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12194,7 +12194,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Reducers",
+  "subtopic": "ASME B31.3 — Reducers",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12218,7 +12218,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Service categories",
+  "subtopic": "ASME B31.3 — Service categories",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12242,7 +12242,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B31.3 \u2014 Hardness",
+  "subtopic": "ASME B31.3 — Hardness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12266,7 +12266,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 574 \u2014 TML count",
+  "subtopic": "RP 574 — TML count",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12290,7 +12290,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 576 \u2014 Rupture disks",
+  "subtopic": "RP 576 — Rupture disks",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12314,7 +12314,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 577 \u2014 PWHT",
+  "subtopic": "RP 577 — PWHT",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12338,7 +12338,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 578 \u2014 Documentation",
+  "subtopic": "RP 578 — Documentation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12362,7 +12362,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 Base metal thickness",
+  "subtopic": "ASME IX — Base metal thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12386,7 +12386,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME IX \u2014 PQR",
+  "subtopic": "ASME IX — PQR",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12410,7 +12410,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Gaskets",
+  "subtopic": "ASME B16.5 — Gaskets",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12434,7 +12434,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "ASME B16.5 \u2014 Ratings",
+  "subtopic": "ASME B16.5 — Ratings",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12458,7 +12458,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12482,7 +12482,7 @@
   "exams": [
    "570"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12506,7 +12506,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Shell min thickness",
+  "subtopic": "Calc — Shell min thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12522,7 +12522,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12530,7 +12530,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Shell min thickness",
+  "subtopic": "Calc — Shell min thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12546,7 +12546,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12554,7 +12554,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency effect",
+  "subtopic": "Calc — Joint efficiency effect",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12570,7 +12570,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12578,7 +12578,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Specific gravity effect",
+  "subtopic": "Calc — Specific gravity effect",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12594,7 +12594,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12602,7 +12602,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Max fill height",
+  "subtopic": "Calc — Max fill height",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12618,7 +12618,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12626,7 +12626,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12642,7 +12642,7 @@
   },
   "meta": {
    "ref": "API 575 7.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12650,7 +12650,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12666,7 +12666,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3 / API 575 7.2",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12674,7 +12674,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Internal interval",
+  "subtopic": "Calc — Internal interval",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12690,7 +12690,7 @@
   },
   "meta": {
    "ref": "API 653 6.4.2",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12698,7 +12698,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Internal interval (cap)",
+  "subtopic": "Calc — Internal interval (cap)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12714,7 +12714,7 @@
   },
   "meta": {
    "ref": "API 653 6.4.2",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12722,7 +12722,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Concentration cell",
+  "subtopic": "RP 571 — Concentration cell",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12738,7 +12738,7 @@
   },
   "meta": {
    "ref": "RP 571 3.19",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12746,7 +12746,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12762,7 +12762,7 @@
   },
   "meta": {
    "ref": "RP 571 3.19",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12770,7 +12770,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Ethanol SCC",
+  "subtopic": "RP 571 — Ethanol SCC",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12786,7 +12786,7 @@
   },
   "meta": {
    "ref": "RP 571 3.28",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12794,7 +12794,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12810,7 +12810,7 @@
   },
   "meta": {
    "ref": "RP 571 3.28",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12818,7 +12818,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Sulfuric acid corrosion",
+  "subtopic": "RP 571 — Sulfuric acid corrosion",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12834,7 +12834,7 @@
   },
   "meta": {
    "ref": "RP 571 3.62",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12842,7 +12842,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 MIC (tanks)",
+  "subtopic": "RP 571 — MIC (tanks)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12858,7 +12858,7 @@
   },
   "meta": {
    "ref": "RP 571 3.45",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12866,7 +12866,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Soil corrosion (tanks)",
+  "subtopic": "RP 571 — Soil corrosion (tanks)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12882,7 +12882,7 @@
   },
   "meta": {
    "ref": "RP 571 3.57",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12890,7 +12890,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12906,7 +12906,7 @@
   },
   "meta": {
    "ref": "RP 571 3.57",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12914,7 +12914,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Inspection types",
+  "subtopic": "API 653 — Inspection types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12930,7 +12930,7 @@
   },
   "meta": {
    "ref": "API 653 6",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12938,7 +12938,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 External interval",
+  "subtopic": "API 653 — External interval",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -12954,7 +12954,7 @@
   },
   "meta": {
    "ref": "API 653 6.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12962,7 +12962,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Internal interval",
+  "subtopic": "API 653 — Internal interval",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -12978,7 +12978,7 @@
   },
   "meta": {
    "ref": "API 653 6.4",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -12986,7 +12986,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Repair vs alteration",
+  "subtopic": "API 653 — Repair vs alteration",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13002,7 +13002,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13010,7 +13010,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Reconstruction",
+  "subtopic": "API 653 — Reconstruction",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13026,7 +13026,7 @@
   },
   "meta": {
    "ref": "API 653 10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13034,7 +13034,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Brittle fracture",
+  "subtopic": "API 653 — Brittle fracture",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13050,7 +13050,7 @@
   },
   "meta": {
    "ref": "API 653 5 / Annex",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13058,7 +13058,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Suitability for service",
+  "subtopic": "API 653 — Suitability for service",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13074,7 +13074,7 @@
   },
   "meta": {
    "ref": "API 653 4",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13082,7 +13082,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Tank components",
+  "subtopic": "API 650 — Tank components",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13098,7 +13098,7 @@
   },
   "meta": {
    "ref": "API 650 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13106,7 +13106,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Joint efficiency",
+  "subtopic": "API 650 — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13122,7 +13122,7 @@
   },
   "meta": {
    "ref": "API 650 / API 653 4.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13130,7 +13130,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Roof types",
+  "subtopic": "API 650 — Roof types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13146,7 +13146,7 @@
   },
   "meta": {
    "ref": "API 650 / RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13154,7 +13154,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Wind girder",
+  "subtopic": "API 650 — Wind girder",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13170,7 +13170,7 @@
   },
   "meta": {
    "ref": "API 650 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13178,7 +13178,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Inspection practices",
+  "subtopic": "RP 575 — Inspection practices",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13194,7 +13194,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13202,7 +13202,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Weld testing",
+  "subtopic": "RP 575 — Weld testing",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13218,7 +13218,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13226,7 +13226,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Settlement",
+  "subtopic": "RP 575 — Settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13242,7 +13242,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13250,7 +13250,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Causes of deterioration",
+  "subtopic": "RP 575 — Causes of deterioration",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13266,7 +13266,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13274,7 +13274,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 Cathodic protection",
+  "subtopic": "RP 651 — Cathodic protection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13290,7 +13290,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13298,7 +13298,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 CP systems",
+  "subtopic": "RP 651 — CP systems",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13314,7 +13314,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13322,7 +13322,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 CP criteria",
+  "subtopic": "RP 651 — CP criteria",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13338,7 +13338,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13346,7 +13346,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Linings",
+  "subtopic": "RP 652 — Linings",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13362,7 +13362,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13370,7 +13370,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Surface preparation",
+  "subtopic": "RP 652 — Surface preparation",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13386,7 +13386,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13394,7 +13394,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Lining inspection",
+  "subtopic": "RP 652 — Lining inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13410,7 +13410,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13418,7 +13418,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Bottom MRT",
+  "subtopic": "Calc — Bottom MRT",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13434,7 +13434,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13442,7 +13442,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Bottom MRT (coated)",
+  "subtopic": "Calc — Bottom MRT (coated)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13458,7 +13458,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13466,7 +13466,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Max period of operation",
+  "subtopic": "Calc — Max period of operation",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13482,7 +13482,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13490,7 +13490,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Critical zone min",
+  "subtopic": "Calc — Critical zone min",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13506,7 +13506,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13514,7 +13514,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Critical zone (floor)",
+  "subtopic": "Calc — Critical zone (floor)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13530,7 +13530,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13538,7 +13538,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Bottom remaining life",
+  "subtopic": "Calc — Bottom remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13554,7 +13554,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13562,7 +13562,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Shell min thickness",
+  "subtopic": "Calc — Shell min thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13578,7 +13578,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13586,7 +13586,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Max fill height",
+  "subtopic": "Calc — Max fill height",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13602,7 +13602,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13610,7 +13610,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Bottom evaluation",
+  "subtopic": "API 653 — Bottom evaluation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13626,7 +13626,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13634,7 +13634,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Critical zone",
+  "subtopic": "API 653 — Critical zone",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13650,7 +13650,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5 / 9.10.1.2",
-   "reviewStatus": "draft",
+   "reviewStatus": "approved",
    "exclusionGroup": "critical-zone-location"
   }
  },
@@ -13659,7 +13659,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Isolated pitting",
+  "subtopic": "API 653 — Isolated pitting",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13675,7 +13675,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13683,7 +13683,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 RTbc and RTip",
+  "subtopic": "API 653 — RTbc and RTip",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13699,7 +13699,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13707,7 +13707,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Coated topside",
+  "subtopic": "API 653 — Coated topside",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13723,7 +13723,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13731,7 +13731,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Floor scanning",
+  "subtopic": "RP 575 — Floor scanning",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13747,7 +13747,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13755,7 +13755,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement types",
+  "subtopic": "API 653 — Settlement types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13771,7 +13771,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13779,7 +13779,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Planar tilt",
+  "subtopic": "API 653 — Planar tilt",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13795,7 +13795,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13803,7 +13803,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Out-of-plane settlement",
+  "subtopic": "API 653 — Out-of-plane settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13819,7 +13819,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13827,7 +13827,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Edge settlement",
+  "subtopic": "API 653 — Edge settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13843,7 +13843,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13851,7 +13851,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Dish settlement",
+  "subtopic": "API 653 — Dish settlement",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13867,7 +13867,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13875,7 +13875,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Settlement survey",
+  "subtopic": "RP 575 — Settlement survey",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13891,7 +13891,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13899,7 +13899,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Hydrotest required",
+  "subtopic": "API 653 — Hydrotest required",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13915,7 +13915,7 @@
   },
   "meta": {
    "ref": "API 653 10 / 12",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13923,7 +13923,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Hydrotest purpose",
+  "subtopic": "API 653 — Hydrotest purpose",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13939,7 +13939,7 @@
   },
   "meta": {
    "ref": "API 653 12",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13947,7 +13947,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Test water",
+  "subtopic": "API 653 — Test water",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -13963,7 +13963,7 @@
   },
   "meta": {
    "ref": "API 653 5 / 12",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13971,7 +13971,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Brittle fracture",
+  "subtopic": "API 653 — Brittle fracture",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -13987,7 +13987,7 @@
   },
   "meta": {
    "ref": "API 653 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -13995,7 +13995,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Exemption curve",
+  "subtopic": "API 653 — Exemption curve",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14011,7 +14011,7 @@
   },
   "meta": {
    "ref": "API 653 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14019,7 +14019,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Service history",
+  "subtopic": "API 653 — Service history",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14035,7 +14035,7 @@
   },
   "meta": {
    "ref": "API 653 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14043,7 +14043,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Foundation",
+  "subtopic": "RP 575 — Foundation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14059,7 +14059,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14067,7 +14067,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Foundation drainage",
+  "subtopic": "API 653 — Foundation drainage",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14083,7 +14083,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B / RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14091,7 +14091,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Underside protection",
+  "subtopic": "API 653 — Underside protection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14107,7 +14107,7 @@
   },
   "meta": {
    "ref": "API 653 / RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14115,7 +14115,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Joint efficiency",
+  "subtopic": "API 653 — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14131,7 +14131,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14139,7 +14139,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Replacement plate",
+  "subtopic": "API 653 — Replacement plate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14155,7 +14155,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14163,7 +14163,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 RBI",
+  "subtopic": "API 653 — RBI",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14179,7 +14179,7 @@
   },
   "meta": {
    "ref": "API 653 6.4.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14187,7 +14187,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Change of service",
+  "subtopic": "API 653 — Change of service",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14203,7 +14203,7 @@
   },
   "meta": {
    "ref": "API 653 4 / 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14211,7 +14211,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Bottom repair",
+  "subtopic": "API 653 — Bottom repair",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14227,7 +14227,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14235,7 +14235,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 API 650 design thickness",
+  "subtopic": "Calc — API 650 design thickness",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14251,7 +14251,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14259,7 +14259,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 API 650 test thickness",
+  "subtopic": "Calc — API 650 test thickness",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14275,7 +14275,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14283,7 +14283,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Governing thickness",
+  "subtopic": "Calc — Governing thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14299,7 +14299,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14307,7 +14307,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 API 650 design thickness",
+  "subtopic": "Calc — API 650 design thickness",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14323,7 +14323,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14331,7 +14331,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 API 650 test thickness",
+  "subtopic": "Calc — API 650 test thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14347,7 +14347,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14355,7 +14355,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 API 650 upper course",
+  "subtopic": "Calc — API 650 upper course",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14371,7 +14371,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14379,7 +14379,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 API 650 upper course test",
+  "subtopic": "Calc — API 650 upper course test",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14395,7 +14395,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14403,7 +14403,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Min shell thickness",
+  "subtopic": "API 650 — Min shell thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14419,7 +14419,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.1.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14427,7 +14427,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Design methods",
+  "subtopic": "API 650 — Design methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14443,7 +14443,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14451,7 +14451,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Variable-design-point",
+  "subtopic": "API 650 — Variable-design-point",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14467,7 +14467,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14475,7 +14475,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Annular plates",
+  "subtopic": "API 650 — Annular plates",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14491,7 +14491,7 @@
   },
   "meta": {
    "ref": "API 650 5.5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14499,7 +14499,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Roof types",
+  "subtopic": "API 650 — Roof types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14515,7 +14515,7 @@
   },
   "meta": {
    "ref": "API 650 5.10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14523,7 +14523,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Frangible roof",
+  "subtopic": "API 650 — Frangible roof",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14539,7 +14539,7 @@
   },
   "meta": {
    "ref": "API 650 5.10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14547,7 +14547,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Floating roofs",
+  "subtopic": "API 650 — Floating roofs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14563,7 +14563,7 @@
   },
   "meta": {
    "ref": "API 650 / RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14571,7 +14571,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Wind girders",
+  "subtopic": "API 650 — Wind girders",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14587,7 +14587,7 @@
   },
   "meta": {
    "ref": "API 650 5.9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14595,7 +14595,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Nozzle reinforcement",
+  "subtopic": "API 650 — Nozzle reinforcement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14611,7 +14611,7 @@
   },
   "meta": {
    "ref": "API 650 5.7",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14619,7 +14619,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Seismic design",
+  "subtopic": "API 650 — Seismic design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14635,7 +14635,7 @@
   },
   "meta": {
    "ref": "API 650 Annex E",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14643,7 +14643,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Anchorage",
+  "subtopic": "API 650 — Anchorage",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14659,7 +14659,7 @@
   },
   "meta": {
    "ref": "API 650 5.12 / Annex E",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14667,7 +14667,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Material toughness",
+  "subtopic": "API 650 — Material toughness",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14683,7 +14683,7 @@
   },
   "meta": {
    "ref": "API 650 4 / Figure 4.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14691,7 +14691,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Foundation tolerance",
+  "subtopic": "API 650 — Foundation tolerance",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14707,7 +14707,7 @@
   },
   "meta": {
    "ref": "API 650 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14715,7 +14715,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Corrosion allowance",
+  "subtopic": "API 650 — Corrosion allowance",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14731,7 +14731,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14739,7 +14739,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Welding qualification",
+  "subtopic": "API 653 — Welding qualification",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14755,7 +14755,7 @@
   },
   "meta": {
    "ref": "API 653 11 / ASME IX",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14763,7 +14763,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Shell joints",
+  "subtopic": "API 650 — Shell joints",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14779,7 +14779,7 @@
   },
   "meta": {
    "ref": "API 650 7 / 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14787,7 +14787,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Bottom joints",
+  "subtopic": "API 650 — Bottom joints",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14803,7 +14803,7 @@
   },
   "meta": {
    "ref": "API 650 5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14811,7 +14811,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Preheat",
+  "subtopic": "API 653 — Preheat",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14827,7 +14827,7 @@
   },
   "meta": {
    "ref": "API 653 11 / RP 577",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14835,7 +14835,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 In-service welding",
+  "subtopic": "API 653 — In-service welding",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14851,7 +14851,7 @@
   },
   "meta": {
    "ref": "API 653 11",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14859,7 +14859,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Radiography",
+  "subtopic": "API 653 — Radiography",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14875,7 +14875,7 @@
   },
   "meta": {
    "ref": "API 653 12 / Section V Article 2",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14883,7 +14883,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 RT extent",
+  "subtopic": "API 653 — RT extent",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14899,7 +14899,7 @@
   },
   "meta": {
    "ref": "API 653 12 / API 650 8.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14907,7 +14907,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Vacuum box",
+  "subtopic": "API 653 — Vacuum box",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14923,7 +14923,7 @@
   },
   "meta": {
    "ref": "API 653 12",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14931,7 +14931,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Surface NDE",
+  "subtopic": "API 653 — Surface NDE",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14947,7 +14947,7 @@
   },
   "meta": {
    "ref": "API 653 12 / Section V",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14955,7 +14955,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Reconstruction NDE",
+  "subtopic": "API 653 — Reconstruction NDE",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -14971,7 +14971,7 @@
   },
   "meta": {
    "ref": "API 653 10 / 12",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -14979,7 +14979,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "ASME IX \u2014 Essential variables",
+  "subtopic": "ASME IX — Essential variables",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -14995,7 +14995,7 @@
   },
   "meta": {
    "ref": "ASME IX QW-251",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15003,7 +15003,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "ASME IX \u2014 WPQ",
+  "subtopic": "ASME IX — WPQ",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15019,7 +15019,7 @@
   },
   "meta": {
    "ref": "ASME IX QW-300",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15027,7 +15027,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 NDE selection",
+  "subtopic": "API 653 — NDE selection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15043,7 +15043,7 @@
   },
   "meta": {
    "ref": "API 653 12 / RP 577",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15051,7 +15051,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Design liquid level",
+  "subtopic": "API 650 — Design liquid level",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15067,7 +15067,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15075,7 +15075,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 External interval",
+  "subtopic": "Calc — External interval",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15091,7 +15091,7 @@
   },
   "meta": {
    "ref": "API 653 6.3.2.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15099,7 +15099,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 External interval (cap)",
+  "subtopic": "Calc — External interval (cap)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15115,7 +15115,7 @@
   },
   "meta": {
    "ref": "API 653 6.3.2.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15123,7 +15123,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Shell UT interval",
+  "subtopic": "Calc — Shell UT interval",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15139,7 +15139,7 @@
   },
   "meta": {
    "ref": "API 653 6.3.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15147,7 +15147,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Shell UT interval (cap)",
+  "subtopic": "Calc — Shell UT interval (cap)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15163,7 +15163,7 @@
   },
   "meta": {
    "ref": "API 653 6.3.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15171,7 +15171,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Bottom corrosion rate",
+  "subtopic": "Calc — Bottom corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15187,7 +15187,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15195,7 +15195,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Bottom remaining life",
+  "subtopic": "Calc — Bottom remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15211,7 +15211,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15219,7 +15219,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Critical zone",
+  "subtopic": "API 653 — Critical zone",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15235,7 +15235,7 @@
   },
   "meta": {
    "ref": "API 653 3.10",
-   "reviewStatus": "draft",
+   "reviewStatus": "approved",
    "exclusionGroup": "critical-zone-location"
   }
  },
@@ -15244,7 +15244,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Roof inspection",
+  "subtopic": "RP 575 — Roof inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15260,7 +15260,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15268,7 +15268,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Appurtenances",
+  "subtopic": "RP 575 — Appurtenances",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15284,7 +15284,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15292,7 +15292,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Out-of-service prep",
+  "subtopic": "RP 575 — Out-of-service prep",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15308,7 +15308,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15316,7 +15316,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Methods",
+  "subtopic": "RP 575 — Methods",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15332,7 +15332,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15340,7 +15340,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Insulated tanks",
+  "subtopic": "RP 575 — Insulated tanks",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15356,7 +15356,7 @@
   },
   "meta": {
    "ref": "RP 575 / RP 571 3.22",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15364,7 +15364,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Scheduling",
+  "subtopic": "RP 575 — Scheduling",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15380,7 +15380,7 @@
   },
   "meta": {
    "ref": "RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15388,7 +15388,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 CP criteria",
+  "subtopic": "RP 651 — CP criteria",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15404,7 +15404,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15412,7 +15412,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 Soil resistivity",
+  "subtopic": "RP 651 — Soil resistivity",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15428,7 +15428,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15436,7 +15436,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 Surveys",
+  "subtopic": "RP 651 — Surveys",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15452,7 +15452,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15460,7 +15460,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 System types",
+  "subtopic": "RP 651 — System types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15476,7 +15476,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15484,7 +15484,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 Records",
+  "subtopic": "RP 651 — Records",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15500,7 +15500,7 @@
   },
   "meta": {
    "ref": "RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15508,7 +15508,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Lining types",
+  "subtopic": "RP 652 — Lining types",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15524,7 +15524,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15532,7 +15532,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Inorganic zinc",
+  "subtopic": "RP 652 — Inorganic zinc",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15548,7 +15548,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15556,7 +15556,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Surface prep",
+  "subtopic": "RP 652 — Surface prep",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15572,7 +15572,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15580,7 +15580,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Holiday detection",
+  "subtopic": "RP 652 — Holiday detection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15596,7 +15596,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15604,7 +15604,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Lining selection",
+  "subtopic": "RP 652 — Lining selection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15620,7 +15620,7 @@
   },
   "meta": {
    "ref": "RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15628,7 +15628,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Atmospheric (tanks)",
+  "subtopic": "RP 571 — Atmospheric (tanks)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15644,7 +15644,7 @@
   },
   "meta": {
    "ref": "RP 571 3.8",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15652,7 +15652,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 CUI (tanks)",
+  "subtopic": "RP 571 — CUI (tanks)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15668,7 +15668,7 @@
   },
   "meta": {
    "ref": "RP 571 3.22",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15676,7 +15676,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Brittle fracture (tanks)",
+  "subtopic": "RP 571 — Brittle fracture (tanks)",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15692,7 +15692,7 @@
   },
   "meta": {
    "ref": "RP 571 3.11",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15700,7 +15700,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Caustic corrosion (tanks)",
+  "subtopic": "RP 571 — Caustic corrosion (tanks)",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15716,7 +15716,7 @@
   },
   "meta": {
    "ref": "RP 571 3.14",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15724,7 +15724,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15740,7 +15740,7 @@
   },
   "meta": {
    "ref": "RP 571 3.15",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15748,7 +15748,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15764,7 +15764,7 @@
   },
   "meta": {
    "ref": "RP 571 3.8",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15772,7 +15772,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15788,7 +15788,7 @@
   },
   "meta": {
    "ref": "RP 571 3.22",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15796,7 +15796,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Joint efficiency selection",
+  "subtopic": "Calc — Joint efficiency selection",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15812,7 +15812,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15820,7 +15820,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Reconstructed tank design",
+  "subtopic": "Calc — Reconstructed tank design",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15836,7 +15836,7 @@
   },
   "meta": {
    "ref": "API 653 8.4.3 / API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15844,7 +15844,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Reconstructed tank test",
+  "subtopic": "Calc — Reconstructed tank test",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15860,7 +15860,7 @@
   },
   "meta": {
    "ref": "API 653 8.4.3 / API 650 5.6.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15868,7 +15868,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Riveted shell",
+  "subtopic": "Calc — Riveted shell",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15884,7 +15884,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.4 / Table 4.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15892,7 +15892,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Corrosion rate",
+  "subtopic": "Calc — Corrosion rate",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15908,7 +15908,7 @@
   },
   "meta": {
    "ref": "API 575 7.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15916,7 +15916,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Remaining life",
+  "subtopic": "Calc — Remaining life",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15932,7 +15932,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3 / API 575 7.2",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15940,7 +15940,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Joint efficiency",
+  "subtopic": "API 653 — Joint efficiency",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -15956,7 +15956,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15964,7 +15964,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Unknown records",
+  "subtopic": "API 653 — Unknown records",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -15980,7 +15980,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -15988,7 +15988,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 E effect",
+  "subtopic": "API 653 — E effect",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16004,7 +16004,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16012,7 +16012,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Riveted tanks",
+  "subtopic": "API 653 — Riveted tanks",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16028,7 +16028,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.4 / Table 4.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16036,7 +16036,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Riveted evaluation",
+  "subtopic": "API 653 — Riveted evaluation",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16052,7 +16052,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.4",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16060,7 +16060,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Hot taps",
+  "subtopic": "API 653 — Hot taps",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16076,7 +16076,7 @@
   },
   "meta": {
    "ref": "API 653 9.14",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16084,7 +16084,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Hot tap conditions",
+  "subtopic": "API 653 — Hot tap conditions",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16100,7 +16100,7 @@
   },
   "meta": {
    "ref": "API 653 9.14",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16108,7 +16108,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Reconstruction authorization",
+  "subtopic": "API 653 — Reconstruction authorization",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16124,7 +16124,7 @@
   },
   "meta": {
    "ref": "API 653 10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16132,7 +16132,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Reconstructed welds",
+  "subtopic": "API 653 — Reconstructed welds",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16148,7 +16148,7 @@
   },
   "meta": {
    "ref": "API 653 8 / 10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16156,7 +16156,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Reconstructed materials",
+  "subtopic": "API 653 — Reconstructed materials",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16172,7 +16172,7 @@
   },
   "meta": {
    "ref": "API 653 7 / 10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16180,7 +16180,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Marking",
+  "subtopic": "API 653 — Marking",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16196,7 +16196,7 @@
   },
   "meta": {
    "ref": "API 653 10 / 13",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16204,7 +16204,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Records",
+  "subtopic": "API 653 — Records",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16220,7 +16220,7 @@
   },
   "meta": {
    "ref": "API 653 13",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16228,7 +16228,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Reports",
+  "subtopic": "API 653 — Reports",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16244,7 +16244,7 @@
   },
   "meta": {
    "ref": "API 653 6 / 13",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16252,7 +16252,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Record retention",
+  "subtopic": "API 653 — Record retention",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16268,7 +16268,7 @@
   },
   "meta": {
    "ref": "API 653 13",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16276,7 +16276,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Lap patch limits",
+  "subtopic": "API 653 — Lap patch limits",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16292,7 +16292,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16300,7 +16300,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Insert repairs",
+  "subtopic": "API 653 — Insert repairs",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16316,7 +16316,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16324,7 +16324,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Door sheets",
+  "subtopic": "API 653 — Door sheets",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16340,7 +16340,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16348,7 +16348,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Shell penetrations",
+  "subtopic": "API 653 — Shell penetrations",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16364,7 +16364,7 @@
   },
   "meta": {
    "ref": "API 653 9 / API 650 5.7",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16372,7 +16372,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Fitness for service",
+  "subtopic": "API 653 — Fitness for service",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16388,7 +16388,7 @@
   },
   "meta": {
    "ref": "API 653 4 / API 579",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16396,7 +16396,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 RBI framework",
+  "subtopic": "API 653 — RBI framework",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16412,7 +16412,7 @@
   },
   "meta": {
    "ref": "API 653 6.4.3 / API 580",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16420,7 +16420,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Release prevention",
+  "subtopic": "API 653 — Release prevention",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16436,7 +16436,7 @@
   },
   "meta": {
    "ref": "API 653 / Annex I",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16444,7 +16444,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Leak detection",
+  "subtopic": "API 653 — Leak detection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16460,7 +16460,7 @@
   },
   "meta": {
    "ref": "API 653 9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16468,7 +16468,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Re-rating",
+  "subtopic": "API 653 — Re-rating",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16484,7 +16484,7 @@
   },
   "meta": {
    "ref": "API 653 4 / 5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16492,7 +16492,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16508,7 +16508,7 @@
   },
   "meta": {
    "ref": "RP 571 3.62",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16516,7 +16516,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16532,7 +16532,7 @@
   },
   "meta": {
    "ref": "RP 571 3.19",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16540,7 +16540,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Settlement points",
+  "subtopic": "Calc — Settlement points",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16556,7 +16556,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16564,7 +16564,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Settlement points",
+  "subtopic": "Calc — Settlement points",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16580,7 +16580,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16588,7 +16588,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Shell min thickness",
+  "subtopic": "Calc — Shell min thickness",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16604,7 +16604,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16612,7 +16612,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Max fill height",
+  "subtopic": "Calc — Max fill height",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16628,7 +16628,7 @@
   },
   "meta": {
    "ref": "API 653 4.3.3.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16636,7 +16636,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 Bottom MRT",
+  "subtopic": "Calc — Bottom MRT",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16652,7 +16652,7 @@
   },
   "meta": {
    "ref": "API 653 4.4.5.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16660,7 +16660,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "Calc \u2014 External interval",
+  "subtopic": "Calc — External interval",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16676,7 +16676,7 @@
   },
   "meta": {
    "ref": "API 653 6.3.2.1",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16684,7 +16684,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement",
+  "subtopic": "API 653 — Settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16700,7 +16700,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16708,7 +16708,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement",
+  "subtopic": "API 653 — Settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16724,7 +16724,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16732,7 +16732,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement",
+  "subtopic": "API 653 — Settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16748,7 +16748,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16756,7 +16756,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement",
+  "subtopic": "API 653 — Settlement",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16772,7 +16772,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16780,7 +16780,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Edge settlement",
+  "subtopic": "API 653 — Edge settlement",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16796,7 +16796,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B.3.4",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16804,7 +16804,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Localized settlement",
+  "subtopic": "API 653 — Localized settlement",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16820,7 +16820,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16828,7 +16828,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement",
+  "subtopic": "API 653 — Settlement",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16844,7 +16844,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16852,7 +16852,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement",
+  "subtopic": "API 653 — Settlement",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16868,7 +16868,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B / API 579",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16876,7 +16876,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Settlement survey",
+  "subtopic": "API 653 — Settlement survey",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16892,7 +16892,7 @@
   },
   "meta": {
    "ref": "API 653 Annex B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16900,7 +16900,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Annular plates",
+  "subtopic": "API 650 — Annular plates",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16916,7 +16916,7 @@
   },
   "meta": {
    "ref": "API 650 5.5",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16924,7 +16924,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Wind girder",
+  "subtopic": "API 650 — Wind girder",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16940,7 +16940,7 @@
   },
   "meta": {
    "ref": "API 650 5.9",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16948,7 +16948,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Roof types",
+  "subtopic": "API 650 — Roof types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -16964,7 +16964,7 @@
   },
   "meta": {
    "ref": "API 650 5.10",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16972,7 +16972,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 650 \u2014 Design methods",
+  "subtopic": "API 650 — Design methods",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -16988,7 +16988,7 @@
   },
   "meta": {
    "ref": "API 650 5.6.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -16996,7 +16996,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Brittle fracture",
+  "subtopic": "API 653 — Brittle fracture",
   "tier": "core",
   "difficulty": "hard",
   "content": {
@@ -17012,7 +17012,7 @@
   },
   "meta": {
    "ref": "API 653 5.3",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17020,7 +17020,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Inspection types",
+  "subtopic": "API 653 — Inspection types",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17036,7 +17036,7 @@
   },
   "meta": {
    "ref": "API 653 6.4",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17044,7 +17044,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "API 653 \u2014 Foundations",
+  "subtopic": "API 653 — Foundations",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17060,7 +17060,7 @@
   },
   "meta": {
    "ref": "API 653 / API 650 App B",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17068,7 +17068,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 575 \u2014 Inspection",
+  "subtopic": "RP 575 — Inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17084,7 +17084,7 @@
   },
   "meta": {
    "ref": "API RP 575",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17092,7 +17092,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 651 \u2014 Cathodic protection",
+  "subtopic": "RP 651 — Cathodic protection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17108,7 +17108,7 @@
   },
   "meta": {
    "ref": "API RP 651",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17116,7 +17116,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 652 \u2014 Linings",
+  "subtopic": "RP 652 — Linings",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17132,7 +17132,7 @@
   },
   "meta": {
    "ref": "API RP 652",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17140,7 +17140,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 577 \u2014 Welding inspection",
+  "subtopic": "RP 577 — Welding inspection",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17156,7 +17156,7 @@
   },
   "meta": {
    "ref": "API RP 577",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17164,7 +17164,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "ASME V \u2014 Article 23",
+  "subtopic": "ASME V — Article 23",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17180,7 +17180,7 @@
   },
   "meta": {
    "ref": "ASME V Art 23 / SE-797",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17188,7 +17188,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "ASME IX \u2014 Qualification",
+  "subtopic": "ASME IX — Qualification",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17204,7 +17204,7 @@
   },
   "meta": {
    "ref": "ASME IX",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17212,7 +17212,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17228,7 +17228,7 @@
   },
   "meta": {
    "ref": "API RP 571 3.57",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  },
  {
@@ -17236,7 +17236,7 @@
   "exams": [
    "653"
   ],
-  "subtopic": "RP 571 \u2014 Mechanism ID",
+  "subtopic": "RP 571 — Mechanism ID",
   "tier": "core",
   "difficulty": "medium",
   "content": {
@@ -17252,7 +17252,7 @@
   },
   "meta": {
    "ref": "API RP 571 3.45",
-   "reviewStatus": "draft"
+   "reviewStatus": "approved"
   }
  }
 ]

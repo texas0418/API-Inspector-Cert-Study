@@ -13,16 +13,7 @@ export const POOL: Question[] = poolJson as Question[];
 export const MODULES: ModuleDef[] = [
   { id: '510', title: 'API 510', subtitle: 'Pressure Vessel Inspector', productId: 'unlock_api510' },
   { id: '570', title: 'API 570', subtitle: 'Piping Inspector', productId: 'unlock_api570' },
-  // Withdrawn 2026-09-07: only 53 of its 251 questions are reviewed, and the
-  // IAP is removed from sale. Restore it by setting listed back to true once
-  // the remaining questions are approved — nothing else needs to change.
-  {
-    id: '653',
-    title: 'API 653',
-    subtitle: 'Aboveground Storage Tank Inspector',
-    productId: 'unlock_api653',
-    listed: false,
-  },
+  { id: '653', title: 'API 653', subtitle: 'Aboveground Storage Tank Inspector', productId: 'unlock_api653' },
 ];
 
 // Modules to offer on the home screen. A withdrawn module stays visible to
