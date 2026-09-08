@@ -2,7 +2,7 @@
   "expo": {
     "name": "API Inspector Cert Prep",
     "slug": "api-inspector-cert-prep",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "apiinspector",
@@ -18,7 +18,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.apiicpstudy.app",
-      "buildNumber": "1",
+      "buildNumber": "7",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
