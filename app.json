@@ -28,7 +28,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0B0E14"
-      }
+      },
+      "versionCode": 2
     },
     "plugins": [
       "expo-router",
