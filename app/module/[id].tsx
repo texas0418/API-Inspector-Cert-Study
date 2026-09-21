@@ -16,6 +16,8 @@ import { useTheme } from '../../lib/useTheme';
 import { mono } from '../../lib/theme';
 import Paywall from '../../components/Paywall';
 import ProgressBar from '../../components/ProgressBar';
+import PrintedPackCard from '../../components/PrintedPackCard';
+import { printedPackFor } from '../../lib/printed';
 import type { Exam } from '../../lib/types';
 
 const EXAM_CODES = MODULES.map((m) => m.id) as Exam[];
@@ -30,6 +32,7 @@ export default function ModuleScreen() {
 
   const exam = (EXAM_CODES.includes(id as Exam) ? id : '510') as Exam;
   const mod = MODULES.find((m) => m.id === exam)!;
+  const pack = printedPackFor(exam);
   const ids = bankForExam(exam).map((q) => q.id);
   const locked = !unlocked.includes(productIdForModule(exam));
 
@@ -152,6 +155,8 @@ export default function ModuleScreen() {
           </Pressable>
         );
       })}
+
+      {pack && <PrintedPackCard pack={pack} examTitle={mod.title} />}
 
       <Pressable onPress={() => router.push('/bookmarks')} style={{ marginTop: 24, alignItems: 'center' }}>
         <Text style={{ color: tokens.muted, fontFamily: mono, fontSize: 13 }}>View bookmarks</Text>
