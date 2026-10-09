@@ -4,6 +4,7 @@ import { useStore, blockReadiness } from '../lib/store';
 import { getEveryQuestion } from '../lib/bank';
 import { useTheme } from '../lib/useTheme';
 import { mono } from '../lib/theme';
+import MoreApps from '../lib/MoreAppsSection';
 import { restorePurchases, isLiveMode } from '../lib/purchases';
 
 export default function Settings() {
@@ -144,7 +145,8 @@ export default function Settings() {
         authorized, or endorsed by the American Petroleum Institute (API) or ASME. API, ASME, and
         related marks belong to their respective owners.
       </Text>
-    </ScrollView>
+      <MoreApps />
+      </ScrollView>
   );
 }
 
