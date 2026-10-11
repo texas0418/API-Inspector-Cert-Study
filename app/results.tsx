@@ -1,6 +1,7 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
+import { recordSessionCompleted } from '../lib/review';
 import { useSession } from '../lib/session';
 import { useTheme } from '../lib/useTheme';
 import { mono } from '../lib/theme';
@@ -33,6 +34,12 @@ export default function Results() {
     }
     return { correct, total: considered.length, byTopic, missed };
   }, [session]);
+
+  // Count this session toward the one-time review ask (lib/review.ts); the
+  // answers are frozen on this screen, so this fires once per results view.
+  useEffect(() => {
+    if (total > 0) recordSessionCompleted();
+  }, [total]);
 
   if (total === 0) {
     return (
